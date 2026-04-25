@@ -1,0 +1,37 @@
+[1.775s] Invoking command in '/home/paolaramos/Documents/Autonomous-Drone/tello_ws/src/tello_control': PYTHONPATH=/home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paolaramos/Documents/Autonomous-Drone/tello_ws/install/tello_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tello_control build --build-base /home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_control/build install --record /home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_control/install.log --single-version-externally-managed install_data
+[2.139s] running egg_info
+[2.139s] creating ../../build/tello_control/tello_control.egg-info
+[2.139s] writing ../../build/tello_control/tello_control.egg-info/PKG-INFO
+[2.139s] writing dependency_links to ../../build/tello_control/tello_control.egg-info/dependency_links.txt
+[2.139s] writing entry points to ../../build/tello_control/tello_control.egg-info/entry_points.txt
+[2.139s] writing requirements to ../../build/tello_control/tello_control.egg-info/requires.txt
+[2.139s] writing top-level names to ../../build/tello_control/tello_control.egg-info/top_level.txt
+[2.139s] writing manifest file '../../build/tello_control/tello_control.egg-info/SOURCES.txt'
+[2.139s] reading manifest file '../../build/tello_control/tello_control.egg-info/SOURCES.txt'
+[2.139s] writing manifest file '../../build/tello_control/tello_control.egg-info/SOURCES.txt'
+[2.139s] running build
+[2.139s] running build_py
+[2.141s] creating /home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_control/build
+[2.141s] creating /home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_control/build/lib
+[2.141s] creating /home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_control/build/lib/tello_control
+[2.141s] copying tello_control/__init__.py -> /home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_control/build/lib/tello_control
+[2.141s] copying tello_control/control_node.py -> /home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_control/build/lib/tello_control
+[2.141s] running install
+[2.141s] running install_lib
+[2.142s] creating /home/paolaramos/Documents/Autonomous-Drone/tello_ws/install/tello_control/lib/python3.10/site-packages/tello_control
+[2.142s] copying /home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_control/build/lib/tello_control/__init__.py -> /home/paolaramos/Documents/Autonomous-Drone/tello_ws/install/tello_control/lib/python3.10/site-packages/tello_control
+[2.142s] copying /home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_control/build/lib/tello_control/control_node.py -> /home/paolaramos/Documents/Autonomous-Drone/tello_ws/install/tello_control/lib/python3.10/site-packages/tello_control
+[2.142s] byte-compiling /home/paolaramos/Documents/Autonomous-Drone/tello_ws/install/tello_control/lib/python3.10/site-packages/tello_control/__init__.py to __init__.cpython-310.pyc
+[2.142s] byte-compiling /home/paolaramos/Documents/Autonomous-Drone/tello_ws/install/tello_control/lib/python3.10/site-packages/tello_control/control_node.py to control_node.cpython-310.pyc
+[2.142s] running install_data
+[2.142s] creating /home/paolaramos/Documents/Autonomous-Drone/tello_ws/install/tello_control/share/ament_index
+[2.142s] creating /home/paolaramos/Documents/Autonomous-Drone/tello_ws/install/tello_control/share/ament_index/resource_index
+[2.142s] creating /home/paolaramos/Documents/Autonomous-Drone/tello_ws/install/tello_control/share/ament_index/resource_index/packages
+[2.142s] copying resource/tello_control -> /home/paolaramos/Documents/Autonomous-Drone/tello_ws/install/tello_control/share/ament_index/resource_index/packages
+[2.142s] copying package.xml -> /home/paolaramos/Documents/Autonomous-Drone/tello_ws/install/tello_control/share/tello_control
+[2.142s] running install_egg_info
+[2.190s] Copying ../../build/tello_control/tello_control.egg-info to /home/paolaramos/Documents/Autonomous-Drone/tello_ws/install/tello_control/lib/python3.10/site-packages/tello_control-0.0.0-py3.10.egg-info
+[2.190s] running install_scripts
+[2.218s] Installing control_node script to /home/paolaramos/Documents/Autonomous-Drone/tello_ws/install/tello_control/lib/tello_control
+[2.218s] writing list of installed files to '/home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_control/install.log'
+[2.292s] Invoked command in '/home/paolaramos/Documents/Autonomous-Drone/tello_ws/src/tello_control' returned '0': PYTHONPATH=/home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paolaramos/Documents/Autonomous-Drone/tello_ws/install/tello_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tello_control build --build-base /home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_control/build install --record /home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_control/install.log --single-version-externally-managed install_data

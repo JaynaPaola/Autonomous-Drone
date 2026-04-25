@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing tello_interface.egg-info/PKG-INFO
+writing dependency_links to tello_interface.egg-info/dependency_links.txt
+writing entry points to tello_interface.egg-info/entry_points.txt
+writing requirements to tello_interface.egg-info/requires.txt
+writing top-level names to tello_interface.egg-info/top_level.txt
+reading manifest file 'tello_interface.egg-info/SOURCES.txt'
+writing manifest file 'tello_interface.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/paolaramos/Documents/Autonomous-Drone/tello_ws/install/tello_interface/lib/python3.10/site-packages/tello-interface.egg-link (link to .)
+Installing tello_node script to /home/paolaramos/Documents/Autonomous-Drone/tello_ws/install/tello_interface/lib/tello_interface
+
+Installed /home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_interface
+running symlink_data
+symbolically linking /home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_interface/resource/tello_interface -> /home/paolaramos/Documents/Autonomous-Drone/tello_ws/install/tello_interface/share/ament_index/resource_index/packages
+symbolically linking /home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_interface/package.xml -> /home/paolaramos/Documents/Autonomous-Drone/tello_ws/install/tello_interface/share/tello_interface

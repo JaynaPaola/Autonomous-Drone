@@ -1,0 +1,31 @@
+[1.897s] Invoking command in '/home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_odometry': PYTHONPATH=/home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paolaramos/Documents/Autonomous-Drone/tello_ws/install/tello_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_odometry/build
+[3.109s] running develop
+[3.407s] Removing /home/paolaramos/Documents/Autonomous-Drone/tello_ws/install/tello_odometry/lib/python3.10/site-packages/tello-odometry.egg-link (link to .)
+[3.478s] Invoked command in '/home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_odometry' returned '0': PYTHONPATH=/home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paolaramos/Documents/Autonomous-Drone/tello_ws/install/tello_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_odometry/build
+[3.497s] Invoking command in '/home/paolaramos/Documents/Autonomous-Drone/tello_ws/src/tello_odometry': PYTHONPATH=/home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paolaramos/Documents/Autonomous-Drone/tello_ws/install/tello_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tello_odometry build --build-base /home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_odometry/build install --record /home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_odometry/install.log --single-version-externally-managed install_data --force
+[4.249s] running egg_info
+[4.250s] writing ../../build/tello_odometry/tello_odometry.egg-info/PKG-INFO
+[4.250s] writing dependency_links to ../../build/tello_odometry/tello_odometry.egg-info/dependency_links.txt
+[4.250s] writing entry points to ../../build/tello_odometry/tello_odometry.egg-info/entry_points.txt
+[4.250s] writing requirements to ../../build/tello_odometry/tello_odometry.egg-info/requires.txt
+[4.250s] writing top-level names to ../../build/tello_odometry/tello_odometry.egg-info/top_level.txt
+[4.263s] reading manifest file '../../build/tello_odometry/tello_odometry.egg-info/SOURCES.txt'
+[4.263s] writing manifest file '../../build/tello_odometry/tello_odometry.egg-info/SOURCES.txt'
+[4.263s] running build
+[4.263s] running build_py
+[4.263s] running install
+[4.263s] running install_lib
+[4.263s] creating /home/paolaramos/Documents/Autonomous-Drone/tello_ws/install/tello_odometry/lib/python3.10/site-packages/tello_odometry
+[4.263s] copying /home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_odometry/build/lib/tello_odometry/__init__.py -> /home/paolaramos/Documents/Autonomous-Drone/tello_ws/install/tello_odometry/lib/python3.10/site-packages/tello_odometry
+[4.271s] copying /home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_odometry/build/lib/tello_odometry/odom_node.py -> /home/paolaramos/Documents/Autonomous-Drone/tello_ws/install/tello_odometry/lib/python3.10/site-packages/tello_odometry
+[4.272s] byte-compiling /home/paolaramos/Documents/Autonomous-Drone/tello_ws/install/tello_odometry/lib/python3.10/site-packages/tello_odometry/__init__.py to __init__.cpython-310.pyc
+[4.272s] byte-compiling /home/paolaramos/Documents/Autonomous-Drone/tello_ws/install/tello_odometry/lib/python3.10/site-packages/tello_odometry/odom_node.py to odom_node.cpython-310.pyc
+[4.272s] running install_data
+[4.272s] copying resource/tello_odometry -> /home/paolaramos/Documents/Autonomous-Drone/tello_ws/install/tello_odometry/share/ament_index/resource_index/packages
+[4.275s] copying package.xml -> /home/paolaramos/Documents/Autonomous-Drone/tello_ws/install/tello_odometry/share/tello_odometry
+[4.275s] running install_egg_info
+[4.320s] Copying ../../build/tello_odometry/tello_odometry.egg-info to /home/paolaramos/Documents/Autonomous-Drone/tello_ws/install/tello_odometry/lib/python3.10/site-packages/tello_odometry-0.0.0-py3.10.egg-info
+[4.322s] running install_scripts
+[4.453s] Installing odom_node script to /home/paolaramos/Documents/Autonomous-Drone/tello_ws/install/tello_odometry/lib/tello_odometry
+[4.501s] writing list of installed files to '/home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_odometry/install.log'
+[4.560s] Invoked command in '/home/paolaramos/Documents/Autonomous-Drone/tello_ws/src/tello_odometry' returned '0': PYTHONPATH=/home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paolaramos/Documents/Autonomous-Drone/tello_ws/install/tello_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tello_odometry build --build-base /home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_odometry/build install --record /home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_odometry/install.log --single-version-externally-managed install_data --force

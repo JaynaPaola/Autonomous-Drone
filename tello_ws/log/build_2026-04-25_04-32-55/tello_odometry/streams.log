@@ -1,0 +1,19 @@
+[2.002s] Invoking command in '/home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_odometry': PYTHONPATH=/home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paolaramos/Documents/Autonomous-Drone/tello_ws/install/tello_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_odometry/build --no-deps symlink_data --force
+[2.414s] running develop
+[2.882s] running egg_info
+[2.882s] writing tello_odometry.egg-info/PKG-INFO
+[2.883s] writing dependency_links to tello_odometry.egg-info/dependency_links.txt
+[2.883s] writing entry points to tello_odometry.egg-info/entry_points.txt
+[2.883s] writing requirements to tello_odometry.egg-info/requires.txt
+[2.884s] writing top-level names to tello_odometry.egg-info/top_level.txt
+[2.910s] reading manifest file 'tello_odometry.egg-info/SOURCES.txt'
+[2.915s] writing manifest file 'tello_odometry.egg-info/SOURCES.txt'
+[2.953s] running build_ext
+[2.953s] Creating /home/paolaramos/Documents/Autonomous-Drone/tello_ws/install/tello_odometry/lib/python3.10/site-packages/tello-odometry.egg-link (link to .)
+[2.953s] Installing odom_node script to /home/paolaramos/Documents/Autonomous-Drone/tello_ws/install/tello_odometry/lib/tello_odometry
+[2.953s] 
+[2.953s] Installed /home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_odometry
+[2.953s] running symlink_data
+[2.953s] symbolically linking /home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_odometry/resource/tello_odometry -> /home/paolaramos/Documents/Autonomous-Drone/tello_ws/install/tello_odometry/share/ament_index/resource_index/packages
+[2.953s] symbolically linking /home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_odometry/package.xml -> /home/paolaramos/Documents/Autonomous-Drone/tello_ws/install/tello_odometry/share/tello_odometry
+[2.987s] Invoked command in '/home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_odometry' returned '0': PYTHONPATH=/home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paolaramos/Documents/Autonomous-Drone/tello_ws/install/tello_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/paolaramos/Documents/Autonomous-Drone/tello_ws/build/tello_odometry/build --no-deps symlink_data --force

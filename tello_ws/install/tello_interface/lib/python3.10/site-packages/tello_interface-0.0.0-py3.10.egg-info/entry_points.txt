@@ -1,0 +1,3 @@
+[console_scripts]
+tello_node = tello_interface.tello_node:main
+
