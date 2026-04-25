@@ -8,7 +8,7 @@ from djitellopy import Tello
 DT = 0.1
 RC_LIMIT = 40
 MAX_SPEED_CM_S = 40.0
-TOL_CM = 2.5  # Aumentado ligeramente para mayor estabilidad física
+TOL_CM = 2  # Aumentado ligeramente para mayor estabilidad física
 
 ALPHA = 0.6  # Un poco más bajo para que la odometría reaccione más rápido
 
@@ -69,7 +69,7 @@ def run_tello():
 
     # Posición inicial estimada y Objetivo
     q = np.array([0.0, 0.0, 110.0])
-    q_d = np.array([12.0, 12.0, 98.0])
+    q_d = np.array([0.0, 0.0, 150.0])
 
     # K un poco más alto para asegurar que venza la inercia al final
     K = np.diag([1.2, 1.2, 1.2])
