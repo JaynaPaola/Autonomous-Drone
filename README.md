@@ -1,83 +1,158 @@
 # Autonomous-Drone
-# 🚁 Control de Trayectoria para Drone Tello (X → Y → Z)
 
-Este proyecto implementa un sistema de control de posición para el dron DJI Tello utilizando un controlador proporcional y una odometría simple basada en integración de velocidad estimada.
+# Control de seguimiento de trayectoria con DJI Tello
 
-El objetivo del sistema es que el dron siga una trayectoria secuencial en tres etapas:
-1. Movimiento en X
-2. Movimiento en Y
-3. Movimiento en Z
+## 📌 Descripción del proyecto
 
----
+Este proyecto implementa un sistema de control de seguimiento de trayectoria para el dron DJI Tello en Python. Se utiliza un controlador proporcional, una odometría simulada mediante un modelo integrador y la conversión de velocidades a comandos RC del dron.
 
-## 📌 Características del sistema
-
-- Control de posición tipo proporcional (P control)
-- Odometría simplificada mediante integración numérica
-- Ejecución secuencial de trayectoria (X → Y → Z)
-- Comunicación directa con el dron Tello mediante `djitellopy`
-- Control en tiempo real con comandos RC
-- Transiciones automáticas entre objetivos
+El objetivo es analizar el comportamiento dinámico del sistema, su estabilidad y su respuesta ante diferentes referencias de posición.
 
 ---
 
-## 📐 Modelo del sistema
+# 🧠 Modelo del sistema
 
-### 🔹 Control
+## 🔹 Controlador
 
-El control se basa en:
+El sistema de control utiliza una ley proporcional:
 
-\[
 u = K (q_d - q)
-\]
 
 Donde:
-- `q` = posición actual estimada
-- `q_d` = posición deseada
-- `K` = matriz de ganancia proporcional
+- q: posición actual estimada
+- q_d: posición deseada
+- K: matriz de ganancias
 
 ---
 
-### 🔹 Odometría
+## 🔹 Conversión a RC
 
-Se utiliza un modelo simple:
+El vector de control u se convierte a comandos del dron:
 
-1. Estimación de velocidad a partir de comandos RC  
-2. Filtrado exponencial  
-3. Integración numérica:
+- FB → adelante / atrás  
+- LR → izquierda / derecha  
+- UD → arriba / abajo  
 
-\[
-q_{k+1} = q_k + v \cdot dt
-\]
+Los valores se saturan al rango permitido por el Tello.
 
 ---
 
-## 🧭 Trayectoria implementada
+## 🔹 Odometría (modelo integrador)
 
-El dron sigue tres etapas secuenciales:
+El movimiento del dron se modela como:
 
-### 1. Movimiento en X
-\[
-[0, 0, 110] \rightarrow [50, 0, 110]
-\]
+q(k+1) = q(k) + v_est · dt
 
-### 2. Movimiento en Y
-\[
-[50, 0, 110] \rightarrow [50, 50, 110]
-\]
+La velocidad estimada se calcula como:
 
-### 3. Movimiento en Z
-\[
-[50, 50, 110] \rightarrow [50, 50, 150]
-\]
+v_est = α v_est + (1 - α) v_meas
 
 ---
 
-## ⚙️ Requisitos
+# 📊 Test 1 — Control a un solo punto
 
-- Python 3.8+
-- Drone DJI Tello
-- Librerías necesarias:
+## 🎯 Descripción
 
-```bash
-pip install djitellopy numpy
+Este código implementa el seguimiento de un único punto objetivo fijo.
+
+### Funcionamiento:
+- Se define una posición deseada constante q_d
+- Se calcula el error respecto a la posición actual
+- Se genera una acción de control proporcional
+- Se convierte a comandos RC
+- Se actualiza el estado mediante el modelo de odometría
+- El sistema termina al alcanzar la tolerancia definida
+
+---
+
+## 📌 Características
+
+- Control de un solo setpoint
+- Análisis de estabilidad del sistema
+- Evaluación del error global
+- Observación de saturación del actuador (RC)
+- Registro de variables para análisis gráfico
+
+---
+
+## 📈 Variables registradas
+
+- q: posición estimada
+- q_d: posición deseada
+- error total
+- u: señal de control
+- RC: comandos del dron
+- v_est: velocidad estimada
+- v_meas: velocidad medida
+
+---
+
+## 🎯 Objetivo del sistema
+
+Demostrar la convergencia del sistema de control hacia un punto fijo y analizar su comportamiento dinámico.
+
+---
+
+# 📊 Test 2 — Control por trayectoria segmentada (X → Y → Z)
+
+## 🎯 Descripción
+
+Este segundo código implementa un control por etapas, donde el dron sigue una secuencia de puntos en el espacio.
+
+### Trayectoria:
+- Fase 1: X
+- Fase 2: Y
+- Fase 3: Z
+
+---
+
+## 🔁 Funcionamiento
+
+- Se define una lista de objetivos q_d_list
+- El controlador sigue cada punto hasta cumplir la tolerancia
+- Al alcanzar un objetivo, se cambia automáticamente al siguiente
+- El sistema registra todo el proceso dinámico
+
+---
+
+## 📌 Características
+
+- Control por múltiples referencias
+- Transiciones entre objetivos
+- Análisis del comportamiento transitorio
+- Estudio de estabilidad en cambios de setpoint
+- Evaluación de respuesta dinámica del sistema
+
+---
+
+## 📈 Variables registradas
+
+- q: posición estimada
+- q_d: referencia activa
+- error por eje (x, y, z)
+- error total
+- u: señal de control
+- RC: comandos del dron
+- v_est: velocidad estimada
+- v_meas: velocidad medida
+- fase del sistema (X, Y, Z)
+
+---
+
+## 🎯 Objetivo del sistema
+
+Evaluar la capacidad del controlador para seguir trayectorias secuenciales y analizar su comportamiento durante cambios de referencia.
+
+---
+
+# 🧪 Conclusión general
+
+Ambos sistemas permiten analizar:
+
+- Estabilidad del control
+- Respuesta dinámica del dron
+- Saturación del actuador
+- Seguimiento de trayectoria
+- Efectos de cambios de referencia
+
+Estos modelos sirven como base para una futura implementación en ROS.
