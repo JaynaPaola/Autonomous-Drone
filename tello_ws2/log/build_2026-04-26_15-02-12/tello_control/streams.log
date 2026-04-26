@@ -1,0 +1,28 @@
+[0.576s] Invoking command in '/home/paolaramos/tello_ws/src/tello_control': PYTHONPATH=/home/paolaramos/tello_ws/build/tello_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paolaramos/tello_ws/install/tello_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tello_control build --build-base /home/paolaramos/tello_ws/build/tello_control/build install --record /home/paolaramos/tello_ws/build/tello_control/install.log --single-version-externally-managed install_data
+[0.755s] running egg_info
+[0.756s] writing ../../build/tello_control/tello_control.egg-info/PKG-INFO
+[0.763s] writing dependency_links to ../../build/tello_control/tello_control.egg-info/dependency_links.txt
+[0.765s] writing entry points to ../../build/tello_control/tello_control.egg-info/entry_points.txt
+[0.765s] writing requirements to ../../build/tello_control/tello_control.egg-info/requires.txt
+[0.766s] writing top-level names to ../../build/tello_control/tello_control.egg-info/top_level.txt
+[0.769s] reading manifest file '../../build/tello_control/tello_control.egg-info/SOURCES.txt'
+[0.769s] writing manifest file '../../build/tello_control/tello_control.egg-info/SOURCES.txt'
+[0.769s] running build
+[0.769s] running build_py
+[0.772s] copying tello_control/trajectory_node.py -> /home/paolaramos/tello_ws/build/tello_control/build/lib/tello_control
+[0.772s] copying tello_control/odometry_node.py -> /home/paolaramos/tello_ws/build/tello_control/build/lib/tello_control
+[0.772s] running install
+[0.773s] running install_lib
+[0.773s] copying /home/paolaramos/tello_ws/build/tello_control/build/lib/tello_control/trajectory_node.py -> /home/paolaramos/tello_ws/install/tello_control/lib/python3.10/site-packages/tello_control
+[0.773s] copying /home/paolaramos/tello_ws/build/tello_control/build/lib/tello_control/odometry_node.py -> /home/paolaramos/tello_ws/install/tello_control/lib/python3.10/site-packages/tello_control
+[0.773s] byte-compiling /home/paolaramos/tello_ws/install/tello_control/lib/python3.10/site-packages/tello_control/trajectory_node.py to trajectory_node.cpython-310.pyc
+[0.777s] byte-compiling /home/paolaramos/tello_ws/install/tello_control/lib/python3.10/site-packages/tello_control/odometry_node.py to odometry_node.cpython-310.pyc
+[0.778s] running install_data
+[0.778s] running install_egg_info
+[0.802s] removing '/home/paolaramos/tello_ws/install/tello_control/lib/python3.10/site-packages/tello_control-0.0.0-py3.10.egg-info' (and everything under it)
+[0.803s] Copying ../../build/tello_control/tello_control.egg-info to /home/paolaramos/tello_ws/install/tello_control/lib/python3.10/site-packages/tello_control-0.0.0-py3.10.egg-info
+[0.803s] running install_scripts
+[0.829s] Installing odometry_node script to /home/paolaramos/tello_ws/install/tello_control/lib/tello_control
+[0.829s] Installing trajectory_node script to /home/paolaramos/tello_ws/install/tello_control/lib/tello_control
+[0.830s] writing list of installed files to '/home/paolaramos/tello_ws/build/tello_control/install.log'
+[0.863s] Invoked command in '/home/paolaramos/tello_ws/src/tello_control' returned '0': PYTHONPATH=/home/paolaramos/tello_ws/build/tello_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paolaramos/tello_ws/install/tello_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tello_control build --build-base /home/paolaramos/tello_ws/build/tello_control/build install --record /home/paolaramos/tello_ws/build/tello_control/install.log --single-version-externally-managed install_data

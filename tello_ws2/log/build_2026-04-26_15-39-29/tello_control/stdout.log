@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/tello_control/tello_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/tello_control/tello_control.egg-info/dependency_links.txt
+writing entry points to ../../build/tello_control/tello_control.egg-info/entry_points.txt
+writing requirements to ../../build/tello_control/tello_control.egg-info/requires.txt
+writing top-level names to ../../build/tello_control/tello_control.egg-info/top_level.txt
+reading manifest file '../../build/tello_control/tello_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/tello_control/tello_control.egg-info/SOURCES.txt'
+running build
+running build_py
+copying tello_control/trajectory_node.py -> /home/paolaramos/tello_ws/build/tello_control/build/lib/tello_control
+copying tello_control/odometry_node.py -> /home/paolaramos/tello_ws/build/tello_control/build/lib/tello_control
+running install
+running install_lib
+copying /home/paolaramos/tello_ws/build/tello_control/build/lib/tello_control/trajectory_node.py -> /home/paolaramos/tello_ws/install/tello_control/lib/python3.10/site-packages/tello_control
+copying /home/paolaramos/tello_ws/build/tello_control/build/lib/tello_control/odometry_node.py -> /home/paolaramos/tello_ws/install/tello_control/lib/python3.10/site-packages/tello_control
+byte-compiling /home/paolaramos/tello_ws/install/tello_control/lib/python3.10/site-packages/tello_control/trajectory_node.py to trajectory_node.cpython-310.pyc
+byte-compiling /home/paolaramos/tello_ws/install/tello_control/lib/python3.10/site-packages/tello_control/odometry_node.py to odometry_node.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/paolaramos/tello_ws/install/tello_control/lib/python3.10/site-packages/tello_control-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/tello_control/tello_control.egg-info to /home/paolaramos/tello_ws/install/tello_control/lib/python3.10/site-packages/tello_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing odometry_node script to /home/paolaramos/tello_ws/install/tello_control/lib/tello_control
+Installing trajectory_node script to /home/paolaramos/tello_ws/install/tello_control/lib/tello_control
+writing list of installed files to '/home/paolaramos/tello_ws/build/tello_control/install.log'
