@@ -1,0 +1,33 @@
+[1.060s] Invoking command in '/home/paolaramos/tello_ws/src/tello_pkg': PYTHONPATH=/home/paolaramos/tello_ws/build/tello_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paolaramos/tello_ws/install/tello_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tello_pkg build --build-base /home/paolaramos/tello_ws/build/tello_pkg/build install --record /home/paolaramos/tello_ws/build/tello_pkg/install.log --single-version-externally-managed install_data
+[1.296s] running egg_info
+[1.296s] creating ../../build/tello_pkg/tello_pkg.egg-info
+[1.296s] writing ../../build/tello_pkg/tello_pkg.egg-info/PKG-INFO
+[1.296s] writing dependency_links to ../../build/tello_pkg/tello_pkg.egg-info/dependency_links.txt
+[1.296s] writing entry points to ../../build/tello_pkg/tello_pkg.egg-info/entry_points.txt
+[1.296s] writing requirements to ../../build/tello_pkg/tello_pkg.egg-info/requires.txt
+[1.296s] writing top-level names to ../../build/tello_pkg/tello_pkg.egg-info/top_level.txt
+[1.297s] writing manifest file '../../build/tello_pkg/tello_pkg.egg-info/SOURCES.txt'
+[1.300s] reading manifest file '../../build/tello_pkg/tello_pkg.egg-info/SOURCES.txt'
+[1.300s] writing manifest file '../../build/tello_pkg/tello_pkg.egg-info/SOURCES.txt'
+[1.300s] running build
+[1.300s] running build_py
+[1.300s] creating /home/paolaramos/tello_ws/build/tello_pkg/build
+[1.300s] creating /home/paolaramos/tello_ws/build/tello_pkg/build/lib
+[1.300s] creating /home/paolaramos/tello_ws/build/tello_pkg/build/lib/tello_pkg
+[1.300s] copying tello_pkg/__init__.py -> /home/paolaramos/tello_ws/build/tello_pkg/build/lib/tello_pkg
+[1.300s] running install
+[1.300s] running install_lib
+[1.300s] creating /home/paolaramos/tello_ws/install/tello_pkg/lib/python3.10/site-packages/tello_pkg
+[1.301s] copying /home/paolaramos/tello_ws/build/tello_pkg/build/lib/tello_pkg/__init__.py -> /home/paolaramos/tello_ws/install/tello_pkg/lib/python3.10/site-packages/tello_pkg
+[1.303s] byte-compiling /home/paolaramos/tello_ws/install/tello_pkg/lib/python3.10/site-packages/tello_pkg/__init__.py to __init__.cpython-310.pyc
+[1.303s] running install_data
+[1.303s] creating /home/paolaramos/tello_ws/install/tello_pkg/share/ament_index
+[1.303s] creating /home/paolaramos/tello_ws/install/tello_pkg/share/ament_index/resource_index
+[1.303s] creating /home/paolaramos/tello_ws/install/tello_pkg/share/ament_index/resource_index/packages
+[1.304s] copying resource/tello_pkg -> /home/paolaramos/tello_ws/install/tello_pkg/share/ament_index/resource_index/packages
+[1.304s] copying package.xml -> /home/paolaramos/tello_ws/install/tello_pkg/share/tello_pkg
+[1.304s] running install_egg_info
+[1.321s] Copying ../../build/tello_pkg/tello_pkg.egg-info to /home/paolaramos/tello_ws/install/tello_pkg/lib/python3.10/site-packages/tello_pkg-0.0.0-py3.10.egg-info
+[1.321s] running install_scripts
+[1.346s] writing list of installed files to '/home/paolaramos/tello_ws/build/tello_pkg/install.log'
+[1.375s] Invoked command in '/home/paolaramos/tello_ws/src/tello_pkg' returned '0': PYTHONPATH=/home/paolaramos/tello_ws/build/tello_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paolaramos/tello_ws/install/tello_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tello_pkg build --build-base /home/paolaramos/tello_ws/build/tello_pkg/build install --record /home/paolaramos/tello_ws/build/tello_pkg/install.log --single-version-externally-managed install_data
