@@ -1,0 +1,3 @@
+[console_scripts]
+controller = drone.controller:main
+odometry = drone.odometry:main

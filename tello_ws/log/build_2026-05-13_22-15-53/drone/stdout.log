@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/drone/drone.egg-info
+writing ../../build/drone/drone.egg-info/PKG-INFO
+writing dependency_links to ../../build/drone/drone.egg-info/dependency_links.txt
+writing entry points to ../../build/drone/drone.egg-info/entry_points.txt
+writing requirements to ../../build/drone/drone.egg-info/requires.txt
+writing top-level names to ../../build/drone/drone.egg-info/top_level.txt
+writing manifest file '../../build/drone/drone.egg-info/SOURCES.txt'
+reading manifest file '../../build/drone/drone.egg-info/SOURCES.txt'
+writing manifest file '../../build/drone/drone.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/paolaramos/tello_ws/build/drone/build/lib/drone
+copying drone/__init__.py -> /home/paolaramos/tello_ws/build/drone/build/lib/drone
+copying drone/controller.py -> /home/paolaramos/tello_ws/build/drone/build/lib/drone
+copying drone/odometry.py -> /home/paolaramos/tello_ws/build/drone/build/lib/drone
+running install
+running install_lib
+creating /home/paolaramos/tello_ws/install/drone/lib/python3.10/site-packages/drone
+copying /home/paolaramos/tello_ws/build/drone/build/lib/drone/__init__.py -> /home/paolaramos/tello_ws/install/drone/lib/python3.10/site-packages/drone
+copying /home/paolaramos/tello_ws/build/drone/build/lib/drone/controller.py -> /home/paolaramos/tello_ws/install/drone/lib/python3.10/site-packages/drone
+copying /home/paolaramos/tello_ws/build/drone/build/lib/drone/odometry.py -> /home/paolaramos/tello_ws/install/drone/lib/python3.10/site-packages/drone
+byte-compiling /home/paolaramos/tello_ws/install/drone/lib/python3.10/site-packages/drone/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/paolaramos/tello_ws/install/drone/lib/python3.10/site-packages/drone/controller.py to controller.cpython-310.pyc
+byte-compiling /home/paolaramos/tello_ws/install/drone/lib/python3.10/site-packages/drone/odometry.py to odometry.cpython-310.pyc
+running install_data
+creating /home/paolaramos/tello_ws/install/drone/share/ament_index/resource_index/packages
+copying resource/drone -> /home/paolaramos/tello_ws/install/drone/share/ament_index/resource_index/packages
+copying package.xml -> /home/paolaramos/tello_ws/install/drone/share/drone
+creating /home/paolaramos/tello_ws/install/drone/share/drone/launch
+copying launch/drone.launch.py -> /home/paolaramos/tello_ws/install/drone/share/drone/launch
+running install_egg_info
+Copying ../../build/drone/drone.egg-info to /home/paolaramos/tello_ws/install/drone/lib/python3.10/site-packages/drone-0.0.0-py3.10.egg-info
+running install_scripts
+Installing controller script to /home/paolaramos/tello_ws/install/drone/lib/drone
+Installing odometry script to /home/paolaramos/tello_ws/install/drone/lib/drone
+writing list of installed files to '/home/paolaramos/tello_ws/build/drone/install.log'
