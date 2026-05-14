@@ -1,13 +1,10 @@
 Metadata-Version: 2.1
-Name: tello-control
+Name: tello_control
 Version: 0.0.0
 Summary: TODO: Package description
-Home-page: UNKNOWN
 Maintainer: paolaramos
 Maintainer-email: paolaramos@todo.todo
 License: TODO: License declaration
-Platform: UNKNOWN
+Requires-Dist: setuptools
 Provides-Extra: test
-
-UNKNOWN
-
+Requires-Dist: pytest; extra == "test"

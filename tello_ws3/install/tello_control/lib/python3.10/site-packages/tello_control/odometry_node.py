@@ -1,7 +1,11 @@
-import numpy as np
 import rclpy
 from rclpy.node import Node
-from std_msgs.msg import Float32MultiArray, Int16MultiArray
+from std_msgs.msg import Float32MultiArray, Int32MultiArray
+
+from djitellopy import Tello
+import numpy as np
+import time
+
 
 # -----------------------------
 # PARÁMETROS
@@ -12,82 +16,101 @@ MAX_SPEED_CM_S = 40.0
 ALPHA = 0.6
 
 
-class OdometryNode(Node):
+# -----------------------------
+# ODOMETRÍA
+# -----------------------------
+def odometry(q, v_est, rc_cmd, dt):
+    lr, fb, ud, _ = rc_cmd
 
+    v_meas = np.array([
+        fb / RC_LIMIT * MAX_SPEED_CM_S,
+        lr / RC_LIMIT * MAX_SPEED_CM_S,
+        ud / RC_LIMIT * MAX_SPEED_CM_S
+    ])
+
+    v_est = ALPHA * v_est + (1 - ALPHA) * v_meas
+    q_next = q + v_est * dt
+
+    return q_next, v_est
+
+
+# -----------------------------
+# NODO
+# -----------------------------
+class OdometryNode(Node):
     def __init__(self):
         super().__init__('odometry_node')
 
-        # Estado
-        self.q = np.array([0.0, 0.0, 110.0])
-        self.v_est = np.array([0.0, 0.0, 0.0])
+        # Publicador de posición estimada
+        self.odom_pub = self.create_publisher(Float32MultiArray, '/odom_position', 10)
 
-        # Suscripción a RC
+        # Suscriptor de comandos RC
         self.rc_sub = self.create_subscription(
-            Int16MultiArray,
-            '/rc_cmd',
+            Int32MultiArray,
+            '/rc_command',
             self.rc_callback,
             10
         )
 
-        # Publicación de estado
-        self.state_pub = self.create_publisher(
-            Float32MultiArray,
-            '/state',
-            10
+        # Estado interno
+        self.q = np.array([0.0, 0.0, 0.0])
+        self.v_est = np.array([0.0, 0.0, 0.0])
+        self.last_rc = [0, 0, 0, 0]
+
+        # Conexión con el dron
+        self.drone = Tello()
+        try:
+            self.drone.connect()
+            self.get_logger().info(f"Batería: {self.drone.get_battery()}%")
+        except Exception as e:
+            self.get_logger().error(f"Error de conexión: {e}")
+            raise
+
+        self.drone.takeoff()
+        time.sleep(2)
+        self.get_logger().info('OdometryNode iniciado. Dron en vuelo.')
+
+        # Timer de actualización a 10 Hz
+        self.timer = self.create_timer(DT, self.update_loop)
+
+    def rc_callback(self, msg):
+        """Recibe comandos RC desde trajectory_node y los envía al dron."""
+        rc = list(msg.data)
+        self.last_rc = rc
+        self.drone.send_rc_control(*rc)
+
+    def update_loop(self):
+        """Actualiza la odometría y publica la posición estimada."""
+        self.q, self.v_est = odometry(self.q, self.v_est, self.last_rc, DT)
+
+        out = Float32MultiArray()
+        out.data = self.q.tolist()
+        self.odom_pub.publish(out)
+
+        self.get_logger().debug(
+            f"Posición estimada [cm]: x={self.q[0]:.1f}, y={self.q[1]:.1f}, z={self.q[2]:.1f}"
         )
 
-        self.rc_cmd = np.array([0, 0, 0, 0])
-
-        self.timer = self.create_timer(DT, self.update)
-
-        self.get_logger().info("Odometry node iniciado")
-
-    # -----------------------------
-    # RC CALLBACK
-    # -----------------------------
-    def rc_callback(self, msg):
-        self.rc_cmd = np.array(msg.data)
-
-    # -----------------------------
-    # ODOMETRÍA (igual a tu función)
-    # -----------------------------
-    def odometry(self, q, v_est, rc_cmd):
-
-        lr, fb, ud, _ = rc_cmd
-
-        v_meas = np.array([
-            fb / RC_LIMIT * MAX_SPEED_CM_S,
-            lr / RC_LIMIT * MAX_SPEED_CM_S,
-            ud / RC_LIMIT * MAX_SPEED_CM_S
-        ])
-
-        v_est = ALPHA * v_est + (1 - ALPHA) * v_meas
-        q_next = q + v_est * DT
-
-        return q_next, v_est, v_meas
-
-    # -----------------------------
-    # LOOP
-    # -----------------------------
-    def update(self):
-
-        self.q, self.v_est, v_meas = self.odometry(self.q, self.v_est, self.rc_cmd)
-
-        msg = Float32MultiArray()
-        msg.data = [
-            self.q[0], self.q[1], self.q[2],
-            self.v_est[0], self.v_est[1], self.v_est[2]
-        ]
-
-        self.state_pub.publish(msg)
+    def destroy_node(self):
+        """Aterrizaje seguro al cerrar el nodo."""
+        self.get_logger().info('Aterrizando...')
+        self.drone.send_rc_control(0, 0, 0, 0)
+        time.sleep(1)
+        self.drone.land()
+        self.drone.end()
+        super().destroy_node()
 
 
 def main(args=None):
     rclpy.init(args=args)
     node = OdometryNode()
-    rclpy.spin(node)
-    node.destroy_node()
-    rclpy.shutdown()
+    try:
+        rclpy.spin(node)
+    except KeyboardInterrupt:
+        node.get_logger().info('Interrumpido por el usuario.')
+    finally:
+        node.destroy_node()
+        rclpy.shutdown()
 
 
 if __name__ == '__main__':

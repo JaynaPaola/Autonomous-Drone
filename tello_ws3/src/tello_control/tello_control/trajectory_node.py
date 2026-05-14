@@ -1,20 +1,19 @@
-import numpy as np
 import rclpy
 from rclpy.node import Node
-from std_msgs.msg import Float32MultiArray, Int16MultiArray
-from djitellopy import Tello
-import time
+from std_msgs.msg import Float32MultiArray, Int32MultiArray
+
+import numpy as np
+
 
 # -----------------------------
 # PARÁMETROS
 # -----------------------------
-DT = 0.1
 RC_LIMIT = 40
-TOL_CM = 5
+TOL_CM = 2
 
 
 # -----------------------------
-# CONTROL (igual que original)
+# CONTROL
 # -----------------------------
 def control(q, q_d, K):
     e = q_d - q
@@ -32,85 +31,78 @@ def velocity_to_rc(u):
     return lr, fb, ud, 0
 
 
+# -----------------------------
+# NODO
+# -----------------------------
 class TrajectoryNode(Node):
-
     def __init__(self):
         super().__init__('trajectory_node')
 
-        # Tello
-        self.drone = Tello()
-        self.drone.connect()
-        self.get_logger().info(f"Batería: {self.drone.get_battery()}%")
+        # Publicador de comandos RC
+        self.rc_pub = self.create_publisher(Int32MultiArray, '/rc_command', 10)
 
-        self.drone.takeoff()
-        time.sleep(2)
-
-        # Objetivo y estado deseado
-        self.q_d = np.array([45.0, 45.0, 80.0])
-
-        self.q = np.array([0.0, 0.0, 0.0])
-
-        self.K = np.diag([1.2, 1.2, 1.2])
-
-        # Subscripción a estado
-        self.state_sub = self.create_subscription(
+        # Suscriptor de posición estimada
+        self.odom_sub = self.create_subscription(
             Float32MultiArray,
-            '/state',
-            self.state_callback,
+            '/odom_position',
+            self.odom_callback,
             10
         )
 
-        # Publicación RC
-        self.rc_pub = self.create_publisher(
-            Int16MultiArray,
-            '/rc_cmd',
-            10
-        )
+        # Estado
+        self.q = np.array([0.0, 0.0, 0.0])   # posición estimada actual
+        self.q_d = np.array([50.0, 0.0, 150.0])  # objetivo
+        self.K = np.diag([1.2, 1.2, 1.2])
+        self.iteration = 0
+        self.goal_reached = False
 
-        self.timer = self.create_timer(DT, self.update)
+        # Timer de control a 10 Hz
+        self.timer = self.create_timer(0.1, self.control_loop)
 
-        self.get_logger().info("Trajectory node iniciado")
+        self.get_logger().info('TrajectoryNode iniciado.')
 
-    # -----------------------------
-    # CALLBACK ESTADO
-    # -----------------------------
-    def state_callback(self, msg):
-        data = msg.data
-        self.q = np.array([data[0], data[1], data[2]])
+    def odom_callback(self, msg):
+        """Actualiza la posición estimada recibida desde odometry_node."""
+        self.q = np.array(msg.data[:3])
 
-    # -----------------------------
-    # LOOP CONTROL
-    # -----------------------------
-    def update(self):
+    def control_loop(self):
+        if self.goal_reached:
+            return
 
+        # CONTROL
         u, e = control(self.q, self.q_d, self.K)
         dist = np.linalg.norm(e)
 
+        # Conversión a comandos RC
         rc = velocity_to_rc(u)
 
-        # publicar RC
-        msg = Int16MultiArray()
-        msg.data = list(rc)
-        self.rc_pub.publish(msg)
+        self.get_logger().info(
+            f"q_est [cm]: x={self.q[0]:.1f}, y={self.q[1]:.1f}, z={self.q[2]:.1f} | "
+            f"error={dist:.2f} | rc={rc[:3]}"
+        )
 
-        # enviar al dron
-        self.drone.send_rc_control(*rc)
-
-        self.get_logger().info(f"q={self.q} error={dist:.2f} rc={rc}")
-
-        # condición de paro
+        # Condición de parada por precisión
         if dist < TOL_CM:
-            self.get_logger().info("Objetivo alcanzado")
-            self.stop()
+            self.get_logger().info('¡Objetivo alcanzado por precisión!')
+            self._send_rc(0, 0, 0, 0)
+            self.goal_reached = True
+            return
 
-    # -----------------------------
-    # STOP
-    # -----------------------------
-    def stop(self):
-        self.drone.send_rc_control(0, 0, 0, 0)
-        time.sleep(1)
-        self.drone.land()
-        self.drone.end()
+        # Condición de parada por estancamiento (comando mínimo)
+        if self.iteration > 10 and rc[0] == 0 and rc[1] == 0 and rc[2] == 0:
+            self.get_logger().info('¡Objetivo alcanzado por comando mínimo! Finalizando...')
+            self._send_rc(0, 0, 0, 0)
+            self.goal_reached = True
+            return
+
+        # Publicar comando RC
+        self._send_rc(*rc)
+        self.iteration += 1
+
+    def _send_rc(self, lr, fb, ud, yaw):
+        msg = Int32MultiArray()
+        msg.data = [lr, fb, ud, yaw]
+        self.rc_pub.publish(msg)
 
 
 def main(args=None):
@@ -119,9 +111,8 @@ def main(args=None):
     try:
         rclpy.spin(node)
     except KeyboardInterrupt:
-        pass
+        node.get_logger().info('Interrumpido por el usuario.')
     finally:
-        node.stop()
         node.destroy_node()
         rclpy.shutdown()
 

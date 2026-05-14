@@ -1,4 +1,3 @@
 [console_scripts]
 odometry_node = tello_pkg.odometry_node:main
 trajectory_node = tello_pkg.trajectory_node:main
-
