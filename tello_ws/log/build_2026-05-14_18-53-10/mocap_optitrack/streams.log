@@ -1,0 +1,26 @@
+[0.380s] Invoking command in '/home/paolaramos/tello_ws/build/mocap_optitrack': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paolaramos/tello_ws/install/drone:/opt/ros/humble /usr/bin/cmake --build /home/paolaramos/tello_ws/build/mocap_optitrack -- -j4 -l4
+[0.584s] [100%] Built target mocap_optitrack_mocap_node
+[0.609s] Invoked command in '/home/paolaramos/tello_ws/build/mocap_optitrack' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paolaramos/tello_ws/install/drone:/opt/ros/humble /usr/bin/cmake --build /home/paolaramos/tello_ws/build/mocap_optitrack -- -j4 -l4
+[0.630s] Invoking command in '/home/paolaramos/tello_ws/build/mocap_optitrack': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paolaramos/tello_ws/install/drone:/opt/ros/humble /usr/bin/cmake --install /home/paolaramos/tello_ws/build/mocap_optitrack
+[0.670s] -- Install configuration: ""
+[0.670s] -- Up-to-date: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack//launch
+[0.671s] -- Up-to-date: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack//launch/mocap.launch.py
+[0.671s] -- Up-to-date: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack//config
+[0.671s] -- Up-to-date: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack//config/mocap.yaml
+[0.671s] -- Up-to-date: /home/paolaramos/tello_ws/install/mocap_optitrack/share/ament_index/resource_index/package_run_dependencies/mocap_optitrack
+[0.671s] -- Up-to-date: /home/paolaramos/tello_ws/install/mocap_optitrack/share/ament_index/resource_index/parent_prefix_path/mocap_optitrack
+[0.671s] -- Up-to-date: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack/environment/ament_prefix_path.sh
+[0.671s] -- Up-to-date: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack/environment/ament_prefix_path.dsv
+[0.671s] -- Up-to-date: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack/environment/path.sh
+[0.672s] -- Up-to-date: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack/environment/path.dsv
+[0.672s] -- Up-to-date: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack/local_setup.bash
+[0.673s] -- Up-to-date: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack/local_setup.sh
+[0.673s] -- Up-to-date: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack/local_setup.zsh
+[0.673s] -- Up-to-date: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack/local_setup.dsv
+[0.673s] -- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack/package.dsv
+[0.674s] -- Up-to-date: /home/paolaramos/tello_ws/install/mocap_optitrack/share/ament_index/resource_index/packages/mocap_optitrack
+[0.674s] -- Up-to-date: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack/cmake/mocap_optitrackConfig.cmake
+[0.674s] -- Up-to-date: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack/cmake/mocap_optitrackConfig-version.cmake
+[0.674s] -- Up-to-date: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack/package.xml
+[0.674s] -- Up-to-date: /home/paolaramos/tello_ws/install/mocap_optitrack/lib/mocap_optitrack/mocap_node
+[0.681s] Invoked command in '/home/paolaramos/tello_ws/build/mocap_optitrack' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paolaramos/tello_ws/install/drone:/opt/ros/humble /usr/bin/cmake --install /home/paolaramos/tello_ws/build/mocap_optitrack

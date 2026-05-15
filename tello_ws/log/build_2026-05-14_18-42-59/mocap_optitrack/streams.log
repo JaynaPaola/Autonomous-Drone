@@ -1,0 +1,114 @@
+[0.224s] Invoking command in '/home/paolaramos/tello_ws/build/mocap_optitrack': CMAKE_PREFIX_PATH=/home/paolaramos/tello_ws/install/drone:/opt/ros/humble /usr/bin/cmake /home/paolaramos/tello_ws/src/mocap_optitrack -DCMAKE_INSTALL_PREFIX=/home/paolaramos/tello_ws/install/mocap_optitrack
+[0.833s] -- The C compiler identification is GNU 11.4.0
+[1.146s] -- The CXX compiler identification is GNU 11.4.0
+[1.178s] -- Detecting C compiler ABI info
+[1.326s] -- Detecting C compiler ABI info - done
+[1.333s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.335s] -- Detecting C compile features
+[1.338s] -- Detecting C compile features - done
+[1.348s] -- Detecting CXX compiler ABI info
+[1.484s] -- Detecting CXX compiler ABI info - done
+[1.490s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.490s] -- Detecting CXX compile features
+[1.491s] -- Detecting CXX compile features - done
+[1.551s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.919s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.101s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[2.251s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.264s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.285s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.327s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.373s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.485s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.493s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.702s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.731s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.771s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.797s] -- Looking for pthread.h
+[2.931s] -- Looking for pthread.h - found
+[2.932s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.036s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.037s] -- Found Threads: TRUE  
+[3.168s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[3.445s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.493s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.628s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.628s] -- Configured cppcheck include dirs: /home/paolaramos/tello_ws/src/mocap_optitrack/include
+[3.628s] -- Configured cppcheck exclude dirs and/or files: 
+[3.629s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.631s] -- Added test 'lint_cmake' to check CMake code style
+[3.635s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.637s] -- Added test 'xmllint' to check XML markup files
+[3.640s] -- Configuring done
+[3.928s] -- Generating done
+[3.943s] -- Build files have been written to: /home/paolaramos/tello_ws/build/mocap_optitrack
+[3.959s] Invoked command in '/home/paolaramos/tello_ws/build/mocap_optitrack' returned '0': CMAKE_PREFIX_PATH=/home/paolaramos/tello_ws/install/drone:/opt/ros/humble /usr/bin/cmake /home/paolaramos/tello_ws/src/mocap_optitrack -DCMAKE_INSTALL_PREFIX=/home/paolaramos/tello_ws/install/mocap_optitrack
+[3.961s] Invoking command in '/home/paolaramos/tello_ws/build/mocap_optitrack': CMAKE_PREFIX_PATH=/home/paolaramos/tello_ws/install/drone:/opt/ros/humble /usr/bin/cmake --build /home/paolaramos/tello_ws/build/mocap_optitrack -- -j4 -l4
+[4.043s] [ 11%] [32mBuilding CXX object src/CMakeFiles/mocap_optitrack_mocap_node.dir/natnet/natnet_messages.cpp.o[0m
+[4.049s] [ 22%] [32mBuilding CXX object src/CMakeFiles/mocap_optitrack_mocap_node.dir/natnet/natnet_packet_definition.cpp.o[0m
+[4.051s] [ 33%] [32mBuilding CXX object src/CMakeFiles/mocap_optitrack_mocap_node.dir/socket.cpp.o[0m
+[4.052s] [ 44%] [32mBuilding CXX object src/CMakeFiles/mocap_optitrack_mocap_node.dir/version.cpp.o[0m
+[4.138s] [ 55%] [32mBuilding CXX object src/CMakeFiles/mocap_optitrack_mocap_node.dir/mocap_node.cpp.o[0m
+[4.793s] [ 66%] [32mBuilding CXX object src/CMakeFiles/mocap_optitrack_mocap_node.dir/mocap_config.cpp.o[0m
+[5.572s] [01m[K/home/paolaramos/tello_ws/src/mocap_optitrack/src/natnet/natnet_messages.cpp:[m[K In function ‘[01m[Kvoid natnet::utilities::stringify_timecode(unsigned int, unsigned int, char*, int)[m[K’:
+[5.572s] [01m[K/home/paolaramos/tello_ws/src/mocap_optitrack/src/natnet/natnet_messages.cpp:84:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KbValid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.572s]    84 |     bool [01;35m[KbValid[m[K;
+[5.572s]       |          [01;35m[K^~~~~~[m[K
+[5.653s] [01m[K/home/paolaramos/tello_ws/src/mocap_optitrack/src/natnet/natnet_messages.cpp:[m[K In member function ‘[01m[Kvirtual void natnet::DataFrameMessage::deserialize(rclcpp::Logger, const MessageBuffer&, mocap_optitrack::DataModel*)[m[K’:
+[5.653s] [01m[K/home/paolaramos/tello_ws/src/mocap_optitrack/src/natnet/natnet_messages.cpp:330:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KbHasModel[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.653s]   330 |           bool [01;35m[KbHasModel[m[K = (params & 0x08) != 0;
+[5.653s]       |                [01;35m[K^~~~~~~~~[m[K
+[5.653s] [01m[K/home/paolaramos/tello_ws/src/mocap_optitrack/src/natnet/natnet_messages.cpp:332:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KbUnlabeled[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.653s]   332 |           bool [01;35m[KbUnlabeled[m[K = (params & 0x10) != 0;
+[5.653s]       |                [01;35m[K^~~~~~~~~~[m[K
+[5.653s] [01m[K/home/paolaramos/tello_ws/src/mocap_optitrack/src/natnet/natnet_messages.cpp:334:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KbActiveMarker[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.653s]   334 |           bool [01;35m[KbActiveMarker[m[K = (params & 0x20) != 0;
+[5.653s]       |                [01;35m[K^~~~~~~~~~~~~[m[K
+[5.653s] [01m[K/home/paolaramos/tello_ws/src/mocap_optitrack/src/natnet/natnet_messages.cpp:322:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KbOccluded[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.653s]   322 |         bool [01;35m[KbOccluded[m[K = (params & 0x01) != 0;
+[5.653s]       |              [01;35m[K^~~~~~~~~[m[K
+[5.653s] [01m[K/home/paolaramos/tello_ws/src/mocap_optitrack/src/natnet/natnet_messages.cpp:324:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KbPCSolved[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.654s]   324 |         bool [01;35m[KbPCSolved[m[K = (params & 0x02) != 0;
+[5.654s]       |              [01;35m[K^~~~~~~~~[m[K
+[5.654s] [01m[K/home/paolaramos/tello_ws/src/mocap_optitrack/src/natnet/natnet_messages.cpp:326:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KbModelSolved[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.654s]   326 |         bool [01;35m[KbModelSolved[m[K = (params & 0x04) != 0;
+[5.654s]       |              [01;35m[K^~~~~~~~~~~~[m[K
+[5.654s] [01m[K/home/paolaramos/tello_ws/src/mocap_optitrack/src/natnet/natnet_messages.cpp:484:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KbIsRecording[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.672s]   484 |   bool [01;35m[KbIsRecording[m[K = (params & 0x01) != 0;
+[5.672s]       |        [01;35m[K^~~~~~~~~~~~[m[K
+[5.672s] [01m[K/home/paolaramos/tello_ws/src/mocap_optitrack/src/natnet/natnet_messages.cpp:486:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KbTrackedModelsChanged[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.673s]   486 |   bool [01;35m[KbTrackedModelsChanged[m[K = (params & 0x02) != 0;
+[5.673s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[6.836s] [ 77%] [32mBuilding CXX object src/CMakeFiles/mocap_optitrack_mocap_node.dir/data_model.cpp.o[0m
+[7.724s] [ 88%] [32mBuilding CXX object src/CMakeFiles/mocap_optitrack_mocap_node.dir/rigid_body_publisher.cpp.o[0m
+[11.287s] [01m[K/home/paolaramos/tello_ws/src/mocap_optitrack/src/mocap_node.cpp:[m[K In member function ‘[01m[Kvoid mocap_optitrack::OptiTrackRosBridge::initialize()[m[K’:
+[11.291s] [01m[K/home/paolaramos/tello_ws/src/mocap_optitrack/src/mocap_node.cpp:80:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kret[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[11.293s]    80 |           int [01;35m[Kret[m[K = multicastClientSocketPtr->send(&connectionRequestMsgBuffer[0], connectionRequestMsgBuffer.size(),
+[11.295s]       |               [01;35m[K^~~[m[K
+[15.353s] [100%] [32m[1mLinking CXX executable mocap_node[0m
+[18.029s] [100%] Built target mocap_optitrack_mocap_node
+[18.047s] Invoked command in '/home/paolaramos/tello_ws/build/mocap_optitrack' returned '0': CMAKE_PREFIX_PATH=/home/paolaramos/tello_ws/install/drone:/opt/ros/humble /usr/bin/cmake --build /home/paolaramos/tello_ws/build/mocap_optitrack -- -j4 -l4
+[18.067s] Invoking command in '/home/paolaramos/tello_ws/build/mocap_optitrack': CMAKE_PREFIX_PATH=/home/paolaramos/tello_ws/install/drone:/opt/ros/humble /usr/bin/cmake --install /home/paolaramos/tello_ws/build/mocap_optitrack
+[18.079s] -- Install configuration: ""
+[18.079s] -- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack//launch
+[18.081s] -- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack//launch/mocap.launch.py
+[18.081s] -- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack//config
+[18.081s] -- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack//config/mocap.yaml
+[18.081s] -- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/share/ament_index/resource_index/package_run_dependencies/mocap_optitrack
+[18.081s] -- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/share/ament_index/resource_index/parent_prefix_path/mocap_optitrack
+[18.081s] -- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack/environment/ament_prefix_path.sh
+[18.081s] -- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack/environment/ament_prefix_path.dsv
+[18.081s] -- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack/environment/path.sh
+[18.081s] -- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack/environment/path.dsv
+[18.081s] -- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack/local_setup.bash
+[18.081s] -- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack/local_setup.sh
+[18.081s] -- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack/local_setup.zsh
+[18.081s] -- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack/local_setup.dsv
+[18.081s] -- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack/package.dsv
+[18.082s] -- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/share/ament_index/resource_index/packages/mocap_optitrack
+[18.082s] -- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack/cmake/mocap_optitrackConfig.cmake
+[18.082s] -- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack/cmake/mocap_optitrackConfig-version.cmake
+[18.082s] -- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack/package.xml
+[18.085s] -- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/lib/mocap_optitrack/mocap_node
+[18.085s] -- Set runtime path of "/home/paolaramos/tello_ws/install/mocap_optitrack/lib/mocap_optitrack/mocap_node" to ""
+[18.092s] Invoked command in '/home/paolaramos/tello_ws/build/mocap_optitrack' returned '0': CMAKE_PREFIX_PATH=/home/paolaramos/tello_ws/install/drone:/opt/ros/humble /usr/bin/cmake --install /home/paolaramos/tello_ws/build/mocap_optitrack

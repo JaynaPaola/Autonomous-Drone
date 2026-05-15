@@ -1,0 +1,17 @@
+/home/paolaramos/tello_ws/build/mocap_optitrack/CMakeFiles/uninstall.dir
+/home/paolaramos/tello_ws/build/mocap_optitrack/CMakeFiles/mocap_optitrack_uninstall.dir
+/home/paolaramos/tello_ws/build/mocap_optitrack/CMakeFiles/test.dir
+/home/paolaramos/tello_ws/build/mocap_optitrack/CMakeFiles/edit_cache.dir
+/home/paolaramos/tello_ws/build/mocap_optitrack/CMakeFiles/rebuild_cache.dir
+/home/paolaramos/tello_ws/build/mocap_optitrack/CMakeFiles/list_install_components.dir
+/home/paolaramos/tello_ws/build/mocap_optitrack/CMakeFiles/install.dir
+/home/paolaramos/tello_ws/build/mocap_optitrack/CMakeFiles/install/local.dir
+/home/paolaramos/tello_ws/build/mocap_optitrack/CMakeFiles/install/strip.dir
+/home/paolaramos/tello_ws/build/mocap_optitrack/src/CMakeFiles/mocap_optitrack_mocap_node.dir
+/home/paolaramos/tello_ws/build/mocap_optitrack/src/CMakeFiles/test.dir
+/home/paolaramos/tello_ws/build/mocap_optitrack/src/CMakeFiles/edit_cache.dir
+/home/paolaramos/tello_ws/build/mocap_optitrack/src/CMakeFiles/rebuild_cache.dir
+/home/paolaramos/tello_ws/build/mocap_optitrack/src/CMakeFiles/list_install_components.dir
+/home/paolaramos/tello_ws/build/mocap_optitrack/src/CMakeFiles/install.dir
+/home/paolaramos/tello_ws/build/mocap_optitrack/src/CMakeFiles/install/local.dir
+/home/paolaramos/tello_ws/build/mocap_optitrack/src/CMakeFiles/install/strip.dir

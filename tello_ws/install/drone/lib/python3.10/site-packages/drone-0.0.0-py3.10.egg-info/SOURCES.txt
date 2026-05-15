@@ -11,5 +11,5 @@ setup.py
 drone/__init__.py
 drone/controller.py
 drone/odometry.py
-launch/drone.launch.py
+launch/drone_launch.py
 resource/drone

@@ -1,0 +1,4 @@
+Invoking command in '/home/paolaramos/tello_ws/build/mocap_optitrack': CMAKE_PREFIX_PATH=/home/paolaramos/tello_ws/install/drone:/opt/ros/humble /usr/bin/cmake --build /home/paolaramos/tello_ws/build/mocap_optitrack -- -j4 -l4
+Invoked command in '/home/paolaramos/tello_ws/build/mocap_optitrack' returned '0': CMAKE_PREFIX_PATH=/home/paolaramos/tello_ws/install/drone:/opt/ros/humble /usr/bin/cmake --build /home/paolaramos/tello_ws/build/mocap_optitrack -- -j4 -l4
+Invoking command in '/home/paolaramos/tello_ws/build/mocap_optitrack': CMAKE_PREFIX_PATH=/home/paolaramos/tello_ws/install/drone:/opt/ros/humble /usr/bin/cmake --install /home/paolaramos/tello_ws/build/mocap_optitrack
+Invoked command in '/home/paolaramos/tello_ws/build/mocap_optitrack' returned '0': CMAKE_PREFIX_PATH=/home/paolaramos/tello_ws/install/drone:/opt/ros/humble /usr/bin/cmake --install /home/paolaramos/tello_ws/build/mocap_optitrack

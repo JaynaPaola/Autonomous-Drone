@@ -1,0 +1,284 @@
+[0.000000] (-) TimerEvent: {}
+[0.000198] (drone) JobQueued: {'identifier': 'drone', 'dependencies': OrderedDict()}
+[0.000227] (mocap_optitrack) JobQueued: {'identifier': 'mocap_optitrack', 'dependencies': OrderedDict()}
+[0.001292] (drone) JobStarted: {'identifier': 'drone'}
+[0.015001] (mocap_optitrack) JobStarted: {'identifier': 'mocap_optitrack'}
+[0.152777] (-) TimerEvent: {}
+[0.236168] (mocap_optitrack) JobProgress: {'identifier': 'mocap_optitrack', 'progress': 'cmake'}
+[0.236340] (mocap_optitrack) Command: {'cmd': ['/usr/bin/cmake', '/home/paolaramos/tello_ws/src/mocap_optitrack', '-DCMAKE_INSTALL_PREFIX=/home/paolaramos/tello_ws/install/mocap_optitrack'], 'cwd': '/home/paolaramos/tello_ws/build/mocap_optitrack', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'paolaramos'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/paolaramos'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1397'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=39672a2e5dcb53ffd56dc89c6a06531c'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/paolaramos/tello_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'paolaramos'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'paolaramos'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/paolaramos/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/1397,unix/Ubuntu:/tmp/.ICE-unix/1397'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6cd4ef78_a9ee_4dcd_9c07_833b2c416503'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_MX.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AID7O3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/paolaramos/tello_ws/install/drone:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/paolaramos/tello_ws/build/mocap_optitrack'), ('LC_ALL', 'es_MX.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=39672a2e5dcb53ffd56dc89c6a06531c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/paolaramos/tello_ws/install/drone/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/paolaramos/tello_ws/install/drone:/opt/ros/humble')]), 'shell': False}
+[0.256673] (-) TimerEvent: {}
+[0.358788] (-) TimerEvent: {}
+[0.460932] (-) TimerEvent: {}
+[0.562517] (-) TimerEvent: {}
+[0.675786] (-) TimerEvent: {}
+[0.778258] (-) TimerEvent: {}
+[0.847910] (mocap_optitrack) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.879254] (-) TimerEvent: {}
+[0.920915] (drone) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/drone', 'build', '--build-base', '/home/paolaramos/tello_ws/build/drone/build', 'install', '--record', '/home/paolaramos/tello_ws/build/drone/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/paolaramos/tello_ws/src/drone', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'paolaramos', 'LC_TIME': 'es_MX.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/paolaramos', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_MX.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1397', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=39672a2e5dcb53ffd56dc89c6a06531c', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/paolaramos/tello_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'paolaramos', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'paolaramos', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/paolaramos/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu:@/tmp/.ICE-unix/1397,unix/Ubuntu:/tmp/.ICE-unix/1397', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_MX.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6cd4ef78_a9ee_4dcd_9c07_833b2c416503', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_MX.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_MX.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.AID7O3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.98', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/paolaramos/tello_ws/install/drone:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_MX.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_MX.UTF-8', 'LC_IDENTIFICATION': 'es_MX.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/paolaramos/tello_ws/build/drone', 'LC_ALL': 'es_MX.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=39672a2e5dcb53ffd56dc89c6a06531c', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/paolaramos/tello_ws/build/drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paolaramos/tello_ws/install/drone/lib/python3.10/site-packages:/home/paolaramos/tello_ws/install/drone/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_MX.UTF-8', 'LC_PAPER': 'es_MX.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.985940] (-) TimerEvent: {}
+[1.089498] (-) TimerEvent: {}
+[1.161141] (mocap_optitrack) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.177718] (drone) StdoutLine: {'line': b'running egg_info\n'}
+[1.189419] (drone) StdoutLine: {'line': b'writing ../../build/drone/drone.egg-info/PKG-INFO\n'}
+[1.189616] (-) TimerEvent: {}
+[1.191704] (drone) StdoutLine: {'line': b'writing dependency_links to ../../build/drone/drone.egg-info/dependency_links.txt\n'}
+[1.191950] (drone) StdoutLine: {'line': b'writing entry points to ../../build/drone/drone.egg-info/entry_points.txt\n'}
+[1.192018] (drone) StdoutLine: {'line': b'writing requirements to ../../build/drone/drone.egg-info/requires.txt\n'}
+[1.192054] (drone) StdoutLine: {'line': b'writing top-level names to ../../build/drone/drone.egg-info/top_level.txt\n'}
+[1.193193] (mocap_optitrack) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.231923] (drone) StdoutLine: {'line': b"reading manifest file '../../build/drone/drone.egg-info/SOURCES.txt'\n"}
+[1.232463] (drone) StdoutLine: {'line': b"writing manifest file '../../build/drone/drone.egg-info/SOURCES.txt'\n"}
+[1.232513] (drone) StdoutLine: {'line': b'running build\n'}
+[1.233749] (drone) StdoutLine: {'line': b'running build_py\n'}
+[1.234724] (drone) StdoutLine: {'line': b'copying drone/__init__.py -> /home/paolaramos/tello_ws/build/drone/build/lib/drone\n'}
+[1.234816] (drone) StdoutLine: {'line': b'copying drone/controller.py -> /home/paolaramos/tello_ws/build/drone/build/lib/drone\n'}
+[1.234925] (drone) StdoutLine: {'line': b'copying drone/odometry.py -> /home/paolaramos/tello_ws/build/drone/build/lib/drone\n'}
+[1.234967] (drone) StdoutLine: {'line': b'running install\n'}
+[1.234999] (drone) StdoutLine: {'line': b'running install_lib\n'}
+[1.246839] (drone) StdoutLine: {'line': b'running install_data\n'}
+[1.247197] (drone) StdoutLine: {'line': b'copying resource/drone -> /home/paolaramos/tello_ws/install/drone/share/ament_index/resource_index/packages\n'}
+[1.247372] (drone) StdoutLine: {'line': b'copying package.xml -> /home/paolaramos/tello_ws/install/drone/share/drone\n'}
+[1.248148] (drone) StdoutLine: {'line': b'copying launch/drone_launch.py -> /home/paolaramos/tello_ws/install/drone/share/drone/launch\n'}
+[1.248230] (drone) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.261315] (drone) StdoutLine: {'line': b"removing '/home/paolaramos/tello_ws/install/drone/lib/python3.10/site-packages/drone-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.264260] (drone) StdoutLine: {'line': b'Copying ../../build/drone/drone.egg-info to /home/paolaramos/tello_ws/install/drone/lib/python3.10/site-packages/drone-0.0.0-py3.10.egg-info\n'}
+[1.267501] (drone) StdoutLine: {'line': b'running install_scripts\n'}
+[1.289769] (-) TimerEvent: {}
+[1.340400] (mocap_optitrack) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.347534] (mocap_optitrack) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.349694] (mocap_optitrack) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.352791] (mocap_optitrack) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.362945] (mocap_optitrack) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.364870] (drone) StdoutLine: {'line': b'Installing controller script to /home/paolaramos/tello_ws/install/drone/lib/drone\n'}
+[1.365453] (drone) StdoutLine: {'line': b'Installing odometry script to /home/paolaramos/tello_ws/install/drone/lib/drone\n'}
+[1.365558] (drone) StdoutLine: {'line': b"writing list of installed files to '/home/paolaramos/tello_ws/build/drone/install.log'\n"}
+[1.390031] (-) TimerEvent: {}
+[1.402555] (drone) CommandEnded: {'returncode': 0}
+[1.425275] (drone) JobEnded: {'identifier': 'drone', 'rc': 0}
+[1.491511] (-) TimerEvent: {}
+[1.498988] (mocap_optitrack) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.504807] (mocap_optitrack) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.505127] (mocap_optitrack) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.505728] (mocap_optitrack) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.565428] (mocap_optitrack) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.591947] (-) TimerEvent: {}
+[1.693763] (-) TimerEvent: {}
+[1.796817] (-) TimerEvent: {}
+[1.901458] (-) TimerEvent: {}
+[1.934189] (mocap_optitrack) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.002309] (-) TimerEvent: {}
+[2.103541] (-) TimerEvent: {}
+[2.116137] (mocap_optitrack) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.204055] (-) TimerEvent: {}
+[2.266090] (mocap_optitrack) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.279044] (mocap_optitrack) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.299258] (mocap_optitrack) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.305743] (-) TimerEvent: {}
+[2.342358] (mocap_optitrack) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.387553] (mocap_optitrack) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.429499] (-) TimerEvent: {}
+[2.499821] (mocap_optitrack) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.507560] (mocap_optitrack) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.529945] (-) TimerEvent: {}
+[2.631853] (-) TimerEvent: {}
+[2.716740] (mocap_optitrack) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.733080] (-) TimerEvent: {}
+[2.746107] (mocap_optitrack) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.786165] (mocap_optitrack) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.812000] (mocap_optitrack) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.835041] (-) TimerEvent: {}
+[2.937427] (-) TimerEvent: {}
+[2.945967] (mocap_optitrack) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.947208] (mocap_optitrack) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.038524] (-) TimerEvent: {}
+[3.050620] (mocap_optitrack) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.051633] (mocap_optitrack) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.140520] (-) TimerEvent: {}
+[3.182264] (mocap_optitrack) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[3.240751] (-) TimerEvent: {}
+[3.343905] (-) TimerEvent: {}
+[3.444881] (-) TimerEvent: {}
+[3.458549] (mocap_optitrack) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[3.507867] (mocap_optitrack) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.565381] (-) TimerEvent: {}
+[3.643076] (mocap_optitrack) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.643302] (mocap_optitrack) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/paolaramos/tello_ws/src/mocap_optitrack/include\n'}
+[3.643348] (mocap_optitrack) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.644263] (mocap_optitrack) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.646011] (mocap_optitrack) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.649919] (mocap_optitrack) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.651758] (mocap_optitrack) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.655172] (mocap_optitrack) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.672056] (-) TimerEvent: {}
+[3.776836] (-) TimerEvent: {}
+[3.877801] (-) TimerEvent: {}
+[3.942903] (mocap_optitrack) StdoutLine: {'line': b'-- Generating done\n'}
+[3.956886] (mocap_optitrack) StdoutLine: {'line': b'-- Build files have been written to: /home/paolaramos/tello_ws/build/mocap_optitrack\n'}
+[3.973309] (mocap_optitrack) CommandEnded: {'returncode': 0}
+[3.975416] (mocap_optitrack) JobProgress: {'identifier': 'mocap_optitrack', 'progress': 'build'}
+[3.975546] (mocap_optitrack) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/paolaramos/tello_ws/build/mocap_optitrack', '--', '-j4', '-l4'], 'cwd': '/home/paolaramos/tello_ws/build/mocap_optitrack', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'paolaramos'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/paolaramos'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1397'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=39672a2e5dcb53ffd56dc89c6a06531c'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/paolaramos/tello_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'paolaramos'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'paolaramos'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/paolaramos/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/1397,unix/Ubuntu:/tmp/.ICE-unix/1397'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6cd4ef78_a9ee_4dcd_9c07_833b2c416503'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_MX.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AID7O3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/paolaramos/tello_ws/install/drone:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/paolaramos/tello_ws/build/mocap_optitrack'), ('LC_ALL', 'es_MX.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=39672a2e5dcb53ffd56dc89c6a06531c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/paolaramos/tello_ws/install/drone/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/paolaramos/tello_ws/install/drone:/opt/ros/humble')]), 'shell': False}
+[3.977865] (-) TimerEvent: {}
+[4.057826] (mocap_optitrack) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object src/CMakeFiles/mocap_optitrack_mocap_node.dir/natnet/natnet_messages.cpp.o\x1b[0m\n'}
+[4.063654] (mocap_optitrack) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object src/CMakeFiles/mocap_optitrack_mocap_node.dir/natnet/natnet_packet_definition.cpp.o\x1b[0m\n'}
+[4.065654] (mocap_optitrack) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object src/CMakeFiles/mocap_optitrack_mocap_node.dir/socket.cpp.o\x1b[0m\n'}
+[4.067163] (mocap_optitrack) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object src/CMakeFiles/mocap_optitrack_mocap_node.dir/version.cpp.o\x1b[0m\n'}
+[4.078106] (-) TimerEvent: {}
+[4.153050] (mocap_optitrack) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object src/CMakeFiles/mocap_optitrack_mocap_node.dir/mocap_node.cpp.o\x1b[0m\n'}
+[4.178673] (-) TimerEvent: {}
+[4.280751] (-) TimerEvent: {}
+[4.381404] (-) TimerEvent: {}
+[4.482587] (-) TimerEvent: {}
+[4.584028] (-) TimerEvent: {}
+[4.687244] (-) TimerEvent: {}
+[4.788735] (-) TimerEvent: {}
+[4.807547] (mocap_optitrack) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object src/CMakeFiles/mocap_optitrack_mocap_node.dir/mocap_config.cpp.o\x1b[0m\n'}
+[4.889249] (-) TimerEvent: {}
+[5.021211] (-) TimerEvent: {}
+[5.122522] (-) TimerEvent: {}
+[5.234863] (-) TimerEvent: {}
+[5.348731] (-) TimerEvent: {}
+[5.461577] (-) TimerEvent: {}
+[5.571154] (-) TimerEvent: {}
+[5.586791] (mocap_optitrack) StderrLine: {'line': b'\x1b[01m\x1b[K/home/paolaramos/tello_ws/src/mocap_optitrack/src/natnet/natnet_messages.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid natnet::utilities::stringify_timecode(unsigned int, unsigned int, char*, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.587303] (mocap_optitrack) StderrLine: {'line': b'\x1b[01m\x1b[K/home/paolaramos/tello_ws/src/mocap_optitrack/src/natnet/natnet_messages.cpp:84:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KbValid\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.587374] (mocap_optitrack) StderrLine: {'line': b'   84 |     bool \x1b[01;35m\x1b[KbValid\x1b[m\x1b[K;\n'}
+[5.587410] (mocap_optitrack) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.667440] (mocap_optitrack) StderrLine: {'line': b'\x1b[01m\x1b[K/home/paolaramos/tello_ws/src/mocap_optitrack/src/natnet/natnet_messages.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void natnet::DataFrameMessage::deserialize(rclcpp::Logger, const MessageBuffer&, mocap_optitrack::DataModel*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.667821] (mocap_optitrack) StderrLine: {'line': b'\x1b[01m\x1b[K/home/paolaramos/tello_ws/src/mocap_optitrack/src/natnet/natnet_messages.cpp:330:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KbHasModel\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.668091] (mocap_optitrack) StderrLine: {'line': b'  330 |           bool \x1b[01;35m\x1b[KbHasModel\x1b[m\x1b[K = (params & 0x08) != 0;\n'}
+[5.668136] (mocap_optitrack) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.668170] (mocap_optitrack) StderrLine: {'line': b'\x1b[01m\x1b[K/home/paolaramos/tello_ws/src/mocap_optitrack/src/natnet/natnet_messages.cpp:332:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KbUnlabeled\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.668202] (mocap_optitrack) StderrLine: {'line': b'  332 |           bool \x1b[01;35m\x1b[KbUnlabeled\x1b[m\x1b[K = (params & 0x10) != 0;\n'}
+[5.668232] (mocap_optitrack) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.668261] (mocap_optitrack) StderrLine: {'line': b'\x1b[01m\x1b[K/home/paolaramos/tello_ws/src/mocap_optitrack/src/natnet/natnet_messages.cpp:334:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KbActiveMarker\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.668292] (mocap_optitrack) StderrLine: {'line': b'  334 |           bool \x1b[01;35m\x1b[KbActiveMarker\x1b[m\x1b[K = (params & 0x20) != 0;\n'}
+[5.668357] (mocap_optitrack) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.668389] (mocap_optitrack) StderrLine: {'line': b'\x1b[01m\x1b[K/home/paolaramos/tello_ws/src/mocap_optitrack/src/natnet/natnet_messages.cpp:322:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KbOccluded\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.668421] (mocap_optitrack) StderrLine: {'line': b'  322 |         bool \x1b[01;35m\x1b[KbOccluded\x1b[m\x1b[K = (params & 0x01) != 0;\n'}
+[5.668450] (mocap_optitrack) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.668478] (mocap_optitrack) StderrLine: {'line': b'\x1b[01m\x1b[K/home/paolaramos/tello_ws/src/mocap_optitrack/src/natnet/natnet_messages.cpp:324:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KbPCSolved\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.668526] (mocap_optitrack) StderrLine: {'line': b'  324 |         bool \x1b[01;35m\x1b[KbPCSolved\x1b[m\x1b[K = (params & 0x02) != 0;\n'}
+[5.668565] (mocap_optitrack) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.668596] (mocap_optitrack) StderrLine: {'line': b'\x1b[01m\x1b[K/home/paolaramos/tello_ws/src/mocap_optitrack/src/natnet/natnet_messages.cpp:326:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KbModelSolved\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.668627] (mocap_optitrack) StderrLine: {'line': b'  326 |         bool \x1b[01;35m\x1b[KbModelSolved\x1b[m\x1b[K = (params & 0x04) != 0;\n'}
+[5.668655] (mocap_optitrack) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.668686] (mocap_optitrack) StderrLine: {'line': b'\x1b[01m\x1b[K/home/paolaramos/tello_ws/src/mocap_optitrack/src/natnet/natnet_messages.cpp:484:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KbIsRecording\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.683438] (-) TimerEvent: {}
+[5.685353] (mocap_optitrack) StderrLine: {'line': b'  484 |   bool \x1b[01;35m\x1b[KbIsRecording\x1b[m\x1b[K = (params & 0x01) != 0;\n'}
+[5.687056] (mocap_optitrack) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.687331] (mocap_optitrack) StderrLine: {'line': b'\x1b[01m\x1b[K/home/paolaramos/tello_ws/src/mocap_optitrack/src/natnet/natnet_messages.cpp:486:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KbTrackedModelsChanged\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.687590] (mocap_optitrack) StderrLine: {'line': b'  486 |   bool \x1b[01;35m\x1b[KbTrackedModelsChanged\x1b[m\x1b[K = (params & 0x02) != 0;\n'}
+[5.687776] (mocap_optitrack) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.917399] (-) TimerEvent: {}
+[6.019464] (-) TimerEvent: {}
+[6.120067] (-) TimerEvent: {}
+[6.243346] (-) TimerEvent: {}
+[6.393758] (-) TimerEvent: {}
+[6.582341] (-) TimerEvent: {}
+[6.709386] (-) TimerEvent: {}
+[6.822970] (-) TimerEvent: {}
+[6.851105] (mocap_optitrack) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object src/CMakeFiles/mocap_optitrack_mocap_node.dir/data_model.cpp.o\x1b[0m\n'}
+[6.946701] (-) TimerEvent: {}
+[7.056443] (-) TimerEvent: {}
+[7.159483] (-) TimerEvent: {}
+[7.396840] (-) TimerEvent: {}
+[7.506981] (-) TimerEvent: {}
+[7.611549] (-) TimerEvent: {}
+[7.717380] (-) TimerEvent: {}
+[7.736152] (mocap_optitrack) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object src/CMakeFiles/mocap_optitrack_mocap_node.dir/rigid_body_publisher.cpp.o\x1b[0m\n'}
+[7.825813] (-) TimerEvent: {}
+[7.992961] (-) TimerEvent: {}
+[8.140027] (-) TimerEvent: {}
+[8.241530] (-) TimerEvent: {}
+[8.342645] (-) TimerEvent: {}
+[8.451843] (-) TimerEvent: {}
+[8.573261] (-) TimerEvent: {}
+[8.674469] (-) TimerEvent: {}
+[8.785746] (-) TimerEvent: {}
+[8.983190] (-) TimerEvent: {}
+[9.084833] (-) TimerEvent: {}
+[9.207549] (-) TimerEvent: {}
+[9.328160] (-) TimerEvent: {}
+[9.442605] (-) TimerEvent: {}
+[9.810344] (-) TimerEvent: {}
+[9.932071] (-) TimerEvent: {}
+[10.042509] (-) TimerEvent: {}
+[10.203506] (-) TimerEvent: {}
+[10.424713] (-) TimerEvent: {}
+[10.528023] (-) TimerEvent: {}
+[11.113631] (-) TimerEvent: {}
+[11.300397] (mocap_optitrack) StderrLine: {'line': b'\x1b[01m\x1b[K/home/paolaramos/tello_ws/src/mocap_optitrack/src/mocap_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid mocap_optitrack::OptiTrackRosBridge::initialize()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.302191] (-) TimerEvent: {}
+[11.304263] (mocap_optitrack) StderrLine: {'line': b'\x1b[01m\x1b[K/home/paolaramos/tello_ws/src/mocap_optitrack/src/mocap_node.cpp:80:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kret\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.305887] (mocap_optitrack) StderrLine: {'line': b'   80 |           int \x1b[01;35m\x1b[Kret\x1b[m\x1b[K = multicastClientSocketPtr->send(&connectionRequestMsgBuffer[0], connectionRequestMsgBuffer.size(),\n'}
+[11.308722] (mocap_optitrack) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[11.486900] (-) TimerEvent: {}
+[12.153043] (-) TimerEvent: {}
+[12.472844] (-) TimerEvent: {}
+[12.995918] (-) TimerEvent: {}
+[13.215110] (-) TimerEvent: {}
+[13.361733] (-) TimerEvent: {}
+[13.471116] (-) TimerEvent: {}
+[14.480506] (-) TimerEvent: {}
+[14.884134] (-) TimerEvent: {}
+[14.984935] (-) TimerEvent: {}
+[15.087922] (-) TimerEvent: {}
+[15.196775] (-) TimerEvent: {}
+[15.298717] (-) TimerEvent: {}
+[15.366624] (mocap_optitrack) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable mocap_node\x1b[0m\n'}
+[15.399714] (-) TimerEvent: {}
+[15.501789] (-) TimerEvent: {}
+[15.605067] (-) TimerEvent: {}
+[15.705733] (-) TimerEvent: {}
+[15.807837] (-) TimerEvent: {}
+[15.910032] (-) TimerEvent: {}
+[16.012361] (-) TimerEvent: {}
+[16.115104] (-) TimerEvent: {}
+[16.216262] (-) TimerEvent: {}
+[16.318132] (-) TimerEvent: {}
+[16.421242] (-) TimerEvent: {}
+[16.522048] (-) TimerEvent: {}
+[16.622972] (-) TimerEvent: {}
+[16.723978] (-) TimerEvent: {}
+[16.825510] (-) TimerEvent: {}
+[16.926199] (-) TimerEvent: {}
+[17.029001] (-) TimerEvent: {}
+[17.129734] (-) TimerEvent: {}
+[17.231021] (-) TimerEvent: {}
+[17.332411] (-) TimerEvent: {}
+[17.434333] (-) TimerEvent: {}
+[17.534813] (-) TimerEvent: {}
+[17.636229] (-) TimerEvent: {}
+[17.736946] (-) TimerEvent: {}
+[17.837376] (-) TimerEvent: {}
+[17.938771] (-) TimerEvent: {}
+[18.040031] (-) TimerEvent: {}
+[18.042046] (mocap_optitrack) StdoutLine: {'line': b'[100%] Built target mocap_optitrack_mocap_node\n'}
+[18.056917] (mocap_optitrack) CommandEnded: {'returncode': 0}
+[18.062376] (mocap_optitrack) JobProgress: {'identifier': 'mocap_optitrack', 'progress': 'install'}
+[18.081977] (mocap_optitrack) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/paolaramos/tello_ws/build/mocap_optitrack'], 'cwd': '/home/paolaramos/tello_ws/build/mocap_optitrack', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'paolaramos'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/paolaramos'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1397'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=39672a2e5dcb53ffd56dc89c6a06531c'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/paolaramos/tello_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'paolaramos'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'paolaramos'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/paolaramos/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/1397,unix/Ubuntu:/tmp/.ICE-unix/1397'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6cd4ef78_a9ee_4dcd_9c07_833b2c416503'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_MX.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AID7O3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/paolaramos/tello_ws/install/drone:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/paolaramos/tello_ws/build/mocap_optitrack'), ('LC_ALL', 'es_MX.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=39672a2e5dcb53ffd56dc89c6a06531c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/paolaramos/tello_ws/install/drone/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/paolaramos/tello_ws/install/drone:/opt/ros/humble')]), 'shell': False}
+[18.093183] (mocap_optitrack) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.094244] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack//launch\n'}
+[18.096032] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack//launch/mocap.launch.py\n'}
+[18.096169] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack//config\n'}
+[18.096207] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack//config/mocap.yaml\n'}
+[18.096239] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/share/ament_index/resource_index/package_run_dependencies/mocap_optitrack\n'}
+[18.096270] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/share/ament_index/resource_index/parent_prefix_path/mocap_optitrack\n'}
+[18.096310] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack/environment/ament_prefix_path.sh\n'}
+[18.096339] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack/environment/ament_prefix_path.dsv\n'}
+[18.096366] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack/environment/path.sh\n'}
+[18.096394] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack/environment/path.dsv\n'}
+[18.096420] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack/local_setup.bash\n'}
+[18.096447] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack/local_setup.sh\n'}
+[18.096474] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack/local_setup.zsh\n'}
+[18.096501] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack/local_setup.dsv\n'}
+[18.096527] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack/package.dsv\n'}
+[18.096557] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/share/ament_index/resource_index/packages/mocap_optitrack\n'}
+[18.096583] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack/cmake/mocap_optitrackConfig.cmake\n'}
+[18.096609] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack/cmake/mocap_optitrackConfig-version.cmake\n'}
+[18.096635] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/share/mocap_optitrack/package.xml\n'}
+[18.099181] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/paolaramos/tello_ws/install/mocap_optitrack/lib/mocap_optitrack/mocap_node\n'}
+[18.100044] (mocap_optitrack) StdoutLine: {'line': b'-- Set runtime path of "/home/paolaramos/tello_ws/install/mocap_optitrack/lib/mocap_optitrack/mocap_node" to ""\n'}
+[18.106215] (mocap_optitrack) CommandEnded: {'returncode': 0}
+[18.131457] (mocap_optitrack) JobEnded: {'identifier': 'mocap_optitrack', 'rc': 0}
+[18.133240] (-) EventReactorShutdown: {}
