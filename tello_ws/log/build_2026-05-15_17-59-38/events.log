@@ -1,0 +1,260 @@
+[0.000000] (-) TimerEvent: {}
+[0.001526] (drone) JobQueued: {'identifier': 'drone', 'dependencies': OrderedDict()}
+[0.001572] (optitrack_client) JobQueued: {'identifier': 'optitrack_client', 'dependencies': OrderedDict()}
+[0.004813] (drone) JobStarted: {'identifier': 'drone'}
+[0.052302] (optitrack_client) JobStarted: {'identifier': 'optitrack_client'}
+[0.099237] (-) TimerEvent: {}
+[0.200552] (-) TimerEvent: {}
+[0.314504] (-) TimerEvent: {}
+[0.415806] (-) TimerEvent: {}
+[0.434259] (optitrack_client) JobProgress: {'identifier': 'optitrack_client', 'progress': 'cmake'}
+[0.437636] (optitrack_client) Command: {'cmd': ['/usr/bin/cmake', '/home/paolaramos/Proyecto/tello_ws/src/optitrack_client', '-DCMAKE_INSTALL_PREFIX=/home/paolaramos/Proyecto/tello_ws/install/optitrack_client'], 'cwd': '/home/paolaramos/Proyecto/tello_ws/build/optitrack_client', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'paolaramos'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/paolaramos'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1475'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=263c89af5a6b4e2ec84960186a068066'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'paolaramos'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'paolaramos'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/paolaramos/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/1475,unix/Ubuntu:/tmp/.ICE-unix/1475'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/26890ab1_21bf_47ea_ad20_10b2b3d25a51'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_MX.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3NHDP3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.178'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/paolaramos/Proyecto/tello_ws/build/optitrack_client'), ('LC_ALL', 'es_MX.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=263c89af5a6b4e2ec84960186a068066'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.539751] (-) TimerEvent: {}
+[0.641194] (-) TimerEvent: {}
+[0.775732] (-) TimerEvent: {}
+[0.877694] (-) TimerEvent: {}
+[0.978976] (-) TimerEvent: {}
+[1.080808] (-) TimerEvent: {}
+[1.182683] (-) TimerEvent: {}
+[1.225191] (optitrack_client) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.286765] (-) TimerEvent: {}
+[1.388069] (-) TimerEvent: {}
+[1.488508] (-) TimerEvent: {}
+[1.590837] (-) TimerEvent: {}
+[1.631377] (optitrack_client) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.671341] (optitrack_client) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.691844] (-) TimerEvent: {}
+[1.793147] (-) TimerEvent: {}
+[1.893879] (-) TimerEvent: {}
+[1.905589] (optitrack_client) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.917118] (optitrack_client) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.917923] (optitrack_client) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.925526] (optitrack_client) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.937167] (optitrack_client) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.995173] (-) TimerEvent: {}
+[2.096317] (-) TimerEvent: {}
+[2.133121] (optitrack_client) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.146444] (optitrack_client) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.148147] (optitrack_client) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.148744] (optitrack_client) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.196900] (-) TimerEvent: {}
+[2.207733] (optitrack_client) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.307194] (-) TimerEvent: {}
+[2.408565] (-) TimerEvent: {}
+[2.533964] (-) TimerEvent: {}
+[2.544280] (drone) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/drone', 'build', '--build-base', '/home/paolaramos/Proyecto/tello_ws/build/drone/build', 'install', '--record', '/home/paolaramos/Proyecto/tello_ws/build/drone/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/paolaramos/Proyecto/tello_ws/src/drone', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'paolaramos', 'LC_TIME': 'es_MX.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/paolaramos', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_MX.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1475', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=263c89af5a6b4e2ec84960186a068066', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'paolaramos', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'paolaramos', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/paolaramos/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu:@/tmp/.ICE-unix/1475,unix/Ubuntu:/tmp/.ICE-unix/1475', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_MX.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/26890ab1_21bf_47ea_ad20_10b2b3d25a51', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_MX.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_MX.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.3NHDP3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.178', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_MX.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_MX.UTF-8', 'LC_IDENTIFICATION': 'es_MX.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/paolaramos/Proyecto/tello_ws/build/drone', 'LC_ALL': 'es_MX.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=263c89af5a6b4e2ec84960186a068066', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/paolaramos/Proyecto/tello_ws/build/drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paolaramos/Proyecto/tello_ws/install/drone/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_MX.UTF-8', 'LC_PAPER': 'es_MX.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.648586] (-) TimerEvent: {}
+[2.791283] (-) TimerEvent: {}
+[2.830446] (optitrack_client) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.872669] (drone) StdoutLine: {'line': b'running egg_info\n'}
+[2.893701] (drone) StdoutLine: {'line': b'creating ../../build/drone/drone.egg-info\n'}
+[2.893914] (-) TimerEvent: {}
+[2.898027] (drone) StdoutLine: {'line': b'writing ../../build/drone/drone.egg-info/PKG-INFO\n'}
+[2.898248] (drone) StdoutLine: {'line': b'writing dependency_links to ../../build/drone/drone.egg-info/dependency_links.txt\n'}
+[2.898303] (drone) StdoutLine: {'line': b'writing entry points to ../../build/drone/drone.egg-info/entry_points.txt\n'}
+[2.898348] (drone) StdoutLine: {'line': b'writing requirements to ../../build/drone/drone.egg-info/requires.txt\n'}
+[2.898391] (drone) StdoutLine: {'line': b'writing top-level names to ../../build/drone/drone.egg-info/top_level.txt\n'}
+[2.898433] (drone) StdoutLine: {'line': b"writing manifest file '../../build/drone/drone.egg-info/SOURCES.txt'\n"}
+[2.934595] (drone) StdoutLine: {'line': b"reading manifest file '../../build/drone/drone.egg-info/SOURCES.txt'\n"}
+[2.936558] (drone) StdoutLine: {'line': b"writing manifest file '../../build/drone/drone.egg-info/SOURCES.txt'\n"}
+[2.937012] (drone) StdoutLine: {'line': b'running build\n'}
+[2.937168] (drone) StdoutLine: {'line': b'running build_py\n'}
+[2.937257] (drone) StdoutLine: {'line': b'creating /home/paolaramos/Proyecto/tello_ws/build/drone/build/lib/drone\n'}
+[2.938164] (drone) StdoutLine: {'line': b'copying drone/__init__.py -> /home/paolaramos/Proyecto/tello_ws/build/drone/build/lib/drone\n'}
+[2.938336] (drone) StdoutLine: {'line': b'copying drone/controller.py -> /home/paolaramos/Proyecto/tello_ws/build/drone/build/lib/drone\n'}
+[2.940351] (drone) StdoutLine: {'line': b'copying drone/odometry.py -> /home/paolaramos/Proyecto/tello_ws/build/drone/build/lib/drone\n'}
+[2.944858] (drone) StdoutLine: {'line': b'running install\n'}
+[2.955843] (drone) StdoutLine: {'line': b'running install_lib\n'}
+[2.975021] (drone) StdoutLine: {'line': b'creating /home/paolaramos/Proyecto/tello_ws/install/drone/lib/python3.10/site-packages/drone\n'}
+[2.975272] (drone) StdoutLine: {'line': b'copying /home/paolaramos/Proyecto/tello_ws/build/drone/build/lib/drone/__init__.py -> /home/paolaramos/Proyecto/tello_ws/install/drone/lib/python3.10/site-packages/drone\n'}
+[2.975369] (drone) StdoutLine: {'line': b'copying /home/paolaramos/Proyecto/tello_ws/build/drone/build/lib/drone/controller.py -> /home/paolaramos/Proyecto/tello_ws/install/drone/lib/python3.10/site-packages/drone\n'}
+[2.976524] (drone) StdoutLine: {'line': b'copying /home/paolaramos/Proyecto/tello_ws/build/drone/build/lib/drone/odometry.py -> /home/paolaramos/Proyecto/tello_ws/install/drone/lib/python3.10/site-packages/drone\n'}
+[2.976644] (drone) StdoutLine: {'line': b'byte-compiling /home/paolaramos/Proyecto/tello_ws/install/drone/lib/python3.10/site-packages/drone/__init__.py to __init__.cpython-310.pyc\n'}
+[2.976732] (drone) StdoutLine: {'line': b'byte-compiling /home/paolaramos/Proyecto/tello_ws/install/drone/lib/python3.10/site-packages/drone/controller.py to controller.cpython-310.pyc\n'}
+[2.978499] (drone) StdoutLine: {'line': b'byte-compiling /home/paolaramos/Proyecto/tello_ws/install/drone/lib/python3.10/site-packages/drone/odometry.py to odometry.cpython-310.pyc\n'}
+[2.980137] (drone) StdoutLine: {'line': b'running install_data\n'}
+[2.980844] (drone) StdoutLine: {'line': b'creating /home/paolaramos/Proyecto/tello_ws/install/drone/share/ament_index/resource_index/packages\n'}
+[2.981266] (drone) StdoutLine: {'line': b'copying resource/drone -> /home/paolaramos/Proyecto/tello_ws/install/drone/share/ament_index/resource_index/packages\n'}
+[2.982141] (drone) StdoutLine: {'line': b'copying package.xml -> /home/paolaramos/Proyecto/tello_ws/install/drone/share/drone\n'}
+[2.982304] (drone) StdoutLine: {'line': b'creating /home/paolaramos/Proyecto/tello_ws/install/drone/share/drone/launch\n'}
+[2.983323] (drone) StdoutLine: {'line': b'copying launch/drone_launch.py -> /home/paolaramos/Proyecto/tello_ws/install/drone/share/drone/launch\n'}
+[2.988233] (drone) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.004627] (drone) StdoutLine: {'line': b'Copying ../../build/drone/drone.egg-info to /home/paolaramos/Proyecto/tello_ws/install/drone/lib/python3.10/site-packages/drone-0.0.0-py3.10.egg-info\n'}
+[3.004976] (-) TimerEvent: {}
+[3.006223] (drone) StdoutLine: {'line': b'running install_scripts\n'}
+[3.097384] (optitrack_client) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.105161] (-) TimerEvent: {}
+[3.151563] (drone) StdoutLine: {'line': b'Installing controller script to /home/paolaramos/Proyecto/tello_ws/install/drone/lib/drone\n'}
+[3.152483] (drone) StdoutLine: {'line': b'Installing odometry script to /home/paolaramos/Proyecto/tello_ws/install/drone/lib/drone\n'}
+[3.152676] (drone) StdoutLine: {'line': b"writing list of installed files to '/home/paolaramos/Proyecto/tello_ws/build/drone/install.log'\n"}
+[3.207269] (-) TimerEvent: {}
+[3.209466] (drone) CommandEnded: {'returncode': 0}
+[3.250181] (drone) JobEnded: {'identifier': 'drone', 'rc': 0}
+[3.308606] (-) TimerEvent: {}
+[3.316320] (optitrack_client) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.337261] (optitrack_client) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.376028] (optitrack_client) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.424666] (-) TimerEvent: {}
+[3.430497] (optitrack_client) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.485173] (optitrack_client) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.525949] (-) TimerEvent: {}
+[3.629705] (optitrack_client) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.630029] (-) TimerEvent: {}
+[3.642874] (optitrack_client) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.731992] (-) TimerEvent: {}
+[3.834686] (-) TimerEvent: {}
+[3.927956] (optitrack_client) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.943082] (-) TimerEvent: {}
+[3.970963] (optitrack_client) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.031999] (optitrack_client) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.045758] (-) TimerEvent: {}
+[4.064126] (optitrack_client) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.146253] (-) TimerEvent: {}
+[4.249807] (-) TimerEvent: {}
+[4.266213] (optitrack_client) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.266569] (optitrack_client) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.351881] (-) TimerEvent: {}
+[4.433259] (optitrack_client) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.435522] (optitrack_client) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.452332] (-) TimerEvent: {}
+[4.580247] (-) TimerEvent: {}
+[4.630837] (optitrack_client) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[4.686798] (-) TimerEvent: {}
+[4.787423] (-) TimerEvent: {}
+[4.833464] (optitrack_client) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.848158] (optitrack_client) StdoutLine: {'line': b'-- Generating done\n'}
+[4.857577] (optitrack_client) StdoutLine: {'line': b'-- Build files have been written to: /home/paolaramos/Proyecto/tello_ws/build/optitrack_client\n'}
+[4.873828] (optitrack_client) CommandEnded: {'returncode': 0}
+[4.874313] (optitrack_client) JobProgress: {'identifier': 'optitrack_client', 'progress': 'build'}
+[4.874340] (optitrack_client) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/paolaramos/Proyecto/tello_ws/build/optitrack_client', '--', '-j4', '-l4'], 'cwd': '/home/paolaramos/Proyecto/tello_ws/build/optitrack_client', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'paolaramos'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/paolaramos'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1475'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=263c89af5a6b4e2ec84960186a068066'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'paolaramos'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'paolaramos'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/paolaramos/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/1475,unix/Ubuntu:/tmp/.ICE-unix/1475'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/26890ab1_21bf_47ea_ad20_10b2b3d25a51'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_MX.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3NHDP3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.178'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/paolaramos/Proyecto/tello_ws/build/optitrack_client'), ('LC_ALL', 'es_MX.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=263c89af5a6b4e2ec84960186a068066'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.887763] (-) TimerEvent: {}
+[4.976117] (optitrack_client) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/optitrack_client.dir/src/optitrack_client.cpp.o\x1b[0m\n'}
+[4.979214] (optitrack_client) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/optitrack_client.dir/src/utils.cpp.o\x1b[0m\n'}
+[4.989772] (-) TimerEvent: {}
+[5.090581] (-) TimerEvent: {}
+[5.191840] (-) TimerEvent: {}
+[5.293895] (-) TimerEvent: {}
+[5.395232] (-) TimerEvent: {}
+[5.497660] (-) TimerEvent: {}
+[5.598850] (-) TimerEvent: {}
+[5.704065] (-) TimerEvent: {}
+[5.810765] (-) TimerEvent: {}
+[5.917179] (-) TimerEvent: {}
+[6.018923] (-) TimerEvent: {}
+[6.121565] (-) TimerEvent: {}
+[6.222920] (-) TimerEvent: {}
+[6.329963] (-) TimerEvent: {}
+[6.437135] (-) TimerEvent: {}
+[6.543781] (-) TimerEvent: {}
+[6.647944] (-) TimerEvent: {}
+[6.752547] (-) TimerEvent: {}
+[6.855211] (-) TimerEvent: {}
+[6.958562] (-) TimerEvent: {}
+[7.062071] (-) TimerEvent: {}
+[7.163763] (-) TimerEvent: {}
+[7.276534] (-) TimerEvent: {}
+[7.379444] (-) TimerEvent: {}
+[7.480764] (-) TimerEvent: {}
+[7.585984] (-) TimerEvent: {}
+[7.687053] (-) TimerEvent: {}
+[7.790686] (-) TimerEvent: {}
+[7.903009] (-) TimerEvent: {}
+[8.012882] (-) TimerEvent: {}
+[8.130267] (-) TimerEvent: {}
+[8.234549] (-) TimerEvent: {}
+[8.341083] (-) TimerEvent: {}
+[8.444614] (-) TimerEvent: {}
+[8.555552] (-) TimerEvent: {}
+[8.677473] (-) TimerEvent: {}
+[8.782839] (-) TimerEvent: {}
+[8.893218] (-) TimerEvent: {}
+[9.006671] (-) TimerEvent: {}
+[9.109463] (-) TimerEvent: {}
+[9.210433] (-) TimerEvent: {}
+[9.315595] (-) TimerEvent: {}
+[9.424469] (-) TimerEvent: {}
+[9.525565] (-) TimerEvent: {}
+[9.626900] (-) TimerEvent: {}
+[9.728499] (-) TimerEvent: {}
+[9.829514] (-) TimerEvent: {}
+[9.930988] (-) TimerEvent: {}
+[10.031598] (-) TimerEvent: {}
+[10.137219] (-) TimerEvent: {}
+[10.240261] (-) TimerEvent: {}
+[10.345896] (-) TimerEvent: {}
+[10.448336] (-) TimerEvent: {}
+[10.567716] (-) TimerEvent: {}
+[10.670742] (-) TimerEvent: {}
+[10.785607] (-) TimerEvent: {}
+[10.888941] (-) TimerEvent: {}
+[10.995254] (-) TimerEvent: {}
+[11.105399] (-) TimerEvent: {}
+[11.211660] (-) TimerEvent: {}
+[11.313708] (-) TimerEvent: {}
+[11.417573] (-) TimerEvent: {}
+[11.520696] (-) TimerEvent: {}
+[11.621378] (-) TimerEvent: {}
+[11.751226] (-) TimerEvent: {}
+[11.855891] (-) TimerEvent: {}
+[11.966939] (-) TimerEvent: {}
+[12.082193] (-) TimerEvent: {}
+[12.196996] (-) TimerEvent: {}
+[12.297622] (-) TimerEvent: {}
+[12.404930] (-) TimerEvent: {}
+[12.508938] (-) TimerEvent: {}
+[12.612606] (-) TimerEvent: {}
+[12.714792] (-) TimerEvent: {}
+[12.815855] (-) TimerEvent: {}
+[12.919762] (-) TimerEvent: {}
+[13.020951] (-) TimerEvent: {}
+[13.124344] (-) TimerEvent: {}
+[13.230004] (-) TimerEvent: {}
+[13.332732] (-) TimerEvent: {}
+[13.437967] (-) TimerEvent: {}
+[13.546855] (-) TimerEvent: {}
+[13.647308] (-) TimerEvent: {}
+[13.748269] (-) TimerEvent: {}
+[13.849498] (-) TimerEvent: {}
+[13.950573] (-) TimerEvent: {}
+[14.084239] (-) TimerEvent: {}
+[14.185338] (-) TimerEvent: {}
+[14.286072] (-) TimerEvent: {}
+[14.402897] (-) TimerEvent: {}
+[14.507613] (-) TimerEvent: {}
+[14.615720] (-) TimerEvent: {}
+[14.722628] (-) TimerEvent: {}
+[14.824137] (-) TimerEvent: {}
+[14.897943] (optitrack_client) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable optitrack_client\x1b[0m\n'}
+[14.924407] (-) TimerEvent: {}
+[15.037271] (-) TimerEvent: {}
+[15.171847] (-) TimerEvent: {}
+[15.272788] (-) TimerEvent: {}
+[15.373913] (-) TimerEvent: {}
+[15.379313] (optitrack_client) StdoutLine: {'line': b'[100%] Built target optitrack_client\n'}
+[15.403784] (optitrack_client) CommandEnded: {'returncode': 0}
+[15.411080] (optitrack_client) JobProgress: {'identifier': 'optitrack_client', 'progress': 'install'}
+[15.428233] (optitrack_client) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/paolaramos/Proyecto/tello_ws/build/optitrack_client'], 'cwd': '/home/paolaramos/Proyecto/tello_ws/build/optitrack_client', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'paolaramos'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/paolaramos'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1475'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=263c89af5a6b4e2ec84960186a068066'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'paolaramos'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'paolaramos'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/paolaramos/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/1475,unix/Ubuntu:/tmp/.ICE-unix/1475'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/26890ab1_21bf_47ea_ad20_10b2b3d25a51'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_MX.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3NHDP3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.178'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/paolaramos/Proyecto/tello_ws/build/optitrack_client'), ('LC_ALL', 'es_MX.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=263c89af5a6b4e2ec84960186a068066'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[15.441811] (optitrack_client) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.445006] (optitrack_client) StdoutLine: {'line': b'-- Installing: /home/paolaramos/Proyecto/tello_ws/install/optitrack_client/lib/optitrack_client/optitrack_client\n'}
+[15.446499] (optitrack_client) StdoutLine: {'line': b'-- Set runtime path of "/home/paolaramos/Proyecto/tello_ws/install/optitrack_client/lib/optitrack_client/optitrack_client" to ""\n'}
+[15.446660] (optitrack_client) StdoutLine: {'line': b'-- Up-to-date: /home/paolaramos/Proyecto/tello_ws/install/optitrack_client/lib\n'}
+[15.446739] (optitrack_client) StdoutLine: {'line': b'-- Installing: /home/paolaramos/Proyecto/tello_ws/install/optitrack_client/lib/libNatNet.so\n'}
+[15.455542] (optitrack_client) StdoutLine: {'line': b'-- Installing: /home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/ament_index/resource_index/package_run_dependencies/optitrack_client\n'}
+[15.455971] (optitrack_client) StdoutLine: {'line': b'-- Installing: /home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/ament_index/resource_index/parent_prefix_path/optitrack_client\n'}
+[15.456842] (optitrack_client) StdoutLine: {'line': b'-- Installing: /home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/environment/ament_prefix_path.sh\n'}
+[15.459954] (optitrack_client) StdoutLine: {'line': b'-- Installing: /home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/environment/ament_prefix_path.dsv\n'}
+[15.460221] (optitrack_client) StdoutLine: {'line': b'-- Installing: /home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/environment/path.sh\n'}
+[15.462695] (optitrack_client) StdoutLine: {'line': b'-- Installing: /home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/environment/path.dsv\n'}
+[15.463570] (optitrack_client) StdoutLine: {'line': b'-- Installing: /home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/local_setup.bash\n'}
+[15.463823] (optitrack_client) StdoutLine: {'line': b'-- Installing: /home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/local_setup.sh\n'}
+[15.464068] (optitrack_client) StdoutLine: {'line': b'-- Installing: /home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/local_setup.zsh\n'}
+[15.464304] (optitrack_client) StdoutLine: {'line': b'-- Installing: /home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/local_setup.dsv\n'}
+[15.464404] (optitrack_client) StdoutLine: {'line': b'-- Installing: /home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/package.dsv\n'}
+[15.464494] (optitrack_client) StdoutLine: {'line': b'-- Installing: /home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/ament_index/resource_index/packages/optitrack_client\n'}
+[15.465219] (optitrack_client) StdoutLine: {'line': b'-- Installing: /home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/cmake/optitrack_clientConfig.cmake\n'}
+[15.465323] (optitrack_client) StdoutLine: {'line': b'-- Installing: /home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/cmake/optitrack_clientConfig-version.cmake\n'}
+[15.465408] (optitrack_client) StdoutLine: {'line': b'-- Installing: /home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/package.xml\n'}
+[15.467859] (optitrack_client) CommandEnded: {'returncode': 0}
+[15.474866] (-) TimerEvent: {}
+[15.529789] (optitrack_client) JobEnded: {'identifier': 'optitrack_client', 'rc': 0}
+[15.537914] (-) EventReactorShutdown: {}

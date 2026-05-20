@@ -1,0 +1,34 @@
+[2.438s] Invoking command in '/home/paolaramos/Proyecto/tello_ws/src/drone': PYTHONPATH=/home/paolaramos/Proyecto/tello_ws/build/drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paolaramos/Proyecto/tello_ws/install/drone/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone build --build-base /home/paolaramos/Proyecto/tello_ws/build/drone/build install --record /home/paolaramos/Proyecto/tello_ws/build/drone/install.log --single-version-externally-managed install_data
+[3.225s] running egg_info
+[3.256s] writing ../../build/drone/drone.egg-info/PKG-INFO
+[3.265s] writing dependency_links to ../../build/drone/drone.egg-info/dependency_links.txt
+[3.265s] writing entry points to ../../build/drone/drone.egg-info/entry_points.txt
+[3.265s] writing requirements to ../../build/drone/drone.egg-info/requires.txt
+[3.265s] writing top-level names to ../../build/drone/drone.egg-info/top_level.txt
+[3.432s] reading manifest file '../../build/drone/drone.egg-info/SOURCES.txt'
+[3.432s] writing manifest file '../../build/drone/drone.egg-info/SOURCES.txt'
+[3.434s] running build
+[3.436s] running build_py
+[3.436s] copying drone/plotter.py -> /home/paolaramos/Proyecto/tello_ws/build/drone/build/lib/drone
+[3.436s] copying drone/__init__.py -> /home/paolaramos/Proyecto/tello_ws/build/drone/build/lib/drone
+[3.436s] copying drone/controller.py -> /home/paolaramos/Proyecto/tello_ws/build/drone/build/lib/drone
+[3.437s] copying drone/odometry.py -> /home/paolaramos/Proyecto/tello_ws/build/drone/build/lib/drone
+[3.438s] running install
+[3.461s] running install_lib
+[3.520s] copying /home/paolaramos/Proyecto/tello_ws/build/drone/build/lib/drone/controller.py -> /home/paolaramos/Proyecto/tello_ws/install/drone/lib/python3.10/site-packages/drone
+[3.521s] copying /home/paolaramos/Proyecto/tello_ws/build/drone/build/lib/drone/odometry.py -> /home/paolaramos/Proyecto/tello_ws/install/drone/lib/python3.10/site-packages/drone
+[3.521s] byte-compiling /home/paolaramos/Proyecto/tello_ws/install/drone/lib/python3.10/site-packages/drone/controller.py to controller.cpython-310.pyc
+[3.521s] byte-compiling /home/paolaramos/Proyecto/tello_ws/install/drone/lib/python3.10/site-packages/drone/odometry.py to odometry.cpython-310.pyc
+[3.531s] running install_data
+[3.531s] copying resource/drone -> /home/paolaramos/Proyecto/tello_ws/install/drone/share/ament_index/resource_index/packages
+[3.531s] copying package.xml -> /home/paolaramos/Proyecto/tello_ws/install/drone/share/drone
+[3.531s] copying launch/drone_launch.py -> /home/paolaramos/Proyecto/tello_ws/install/drone/share/drone/launch
+[3.531s] running install_egg_info
+[3.592s] removing '/home/paolaramos/Proyecto/tello_ws/install/drone/lib/python3.10/site-packages/drone-0.0.0-py3.10.egg-info' (and everything under it)
+[3.612s] Copying ../../build/drone/drone.egg-info to /home/paolaramos/Proyecto/tello_ws/install/drone/lib/python3.10/site-packages/drone-0.0.0-py3.10.egg-info
+[3.612s] running install_scripts
+[3.918s] Installing controller script to /home/paolaramos/Proyecto/tello_ws/install/drone/lib/drone
+[3.922s] Installing odometry script to /home/paolaramos/Proyecto/tello_ws/install/drone/lib/drone
+[3.925s] Installing plotter script to /home/paolaramos/Proyecto/tello_ws/install/drone/lib/drone
+[3.926s] writing list of installed files to '/home/paolaramos/Proyecto/tello_ws/build/drone/install.log'
+[4.048s] Invoked command in '/home/paolaramos/Proyecto/tello_ws/src/drone' returned '0': PYTHONPATH=/home/paolaramos/Proyecto/tello_ws/build/drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paolaramos/Proyecto/tello_ws/install/drone/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone build --build-base /home/paolaramos/Proyecto/tello_ws/build/drone/build install --record /home/paolaramos/Proyecto/tello_ws/build/drone/install.log --single-version-externally-managed install_data

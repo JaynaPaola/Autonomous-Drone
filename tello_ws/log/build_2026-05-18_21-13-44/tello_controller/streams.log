@@ -1,0 +1,23 @@
+[0.990s] Invoking command in '/home/paolaramos/Proyecto/tello_ws/src/tello_controller_ros2/tello_controller': PYTHONPATH=/home/paolaramos/Proyecto/tello_ws/build/tello_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paolaramos/Proyecto/tello_ws/install/tello_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/tello_controller build --build-base /home/paolaramos/Proyecto/tello_ws/build/tello_controller/build install --record /home/paolaramos/Proyecto/tello_ws/build/tello_controller/install.log --single-version-externally-managed install_data
+[1.113s] /home/paolaramos/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[1.113s]   warnings.warn(msg)
+[1.192s] running egg_info
+[1.201s] writing ../../../build/tello_controller/tello_controller.egg-info/PKG-INFO
+[1.205s] writing dependency_links to ../../../build/tello_controller/tello_controller.egg-info/dependency_links.txt
+[1.206s] writing entry points to ../../../build/tello_controller/tello_controller.egg-info/entry_points.txt
+[1.208s] writing requirements to ../../../build/tello_controller/tello_controller.egg-info/requires.txt
+[1.208s] writing top-level names to ../../../build/tello_controller/tello_controller.egg-info/top_level.txt
+[1.233s] reading manifest file '../../../build/tello_controller/tello_controller.egg-info/SOURCES.txt'
+[1.234s] writing manifest file '../../../build/tello_controller/tello_controller.egg-info/SOURCES.txt'
+[1.235s] running build
+[1.235s] running build_py
+[1.235s] running install
+[1.239s] running install_lib
+[1.252s] running install_data
+[1.253s] running install_egg_info
+[1.270s] removing '/home/paolaramos/Proyecto/tello_ws/install/tello_controller/lib/python3.10/site-packages/tello_controller-0.1.0-py3.10.egg-info' (and everything under it)
+[1.271s] Copying ../../../build/tello_controller/tello_controller.egg-info to /home/paolaramos/Proyecto/tello_ws/install/tello_controller/lib/python3.10/site-packages/tello_controller-0.1.0-py3.10.egg-info
+[1.272s] running install_scripts
+[1.371s] Installing tello_controller_node script to /home/paolaramos/Proyecto/tello_ws/install/tello_controller/lib/tello_controller
+[1.372s] writing list of installed files to '/home/paolaramos/Proyecto/tello_ws/build/tello_controller/install.log'
+[1.419s] Invoked command in '/home/paolaramos/Proyecto/tello_ws/src/tello_controller_ros2/tello_controller' returned '0': PYTHONPATH=/home/paolaramos/Proyecto/tello_ws/build/tello_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paolaramos/Proyecto/tello_ws/install/tello_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/tello_controller build --build-base /home/paolaramos/Proyecto/tello_ws/build/tello_controller/build install --record /home/paolaramos/Proyecto/tello_ws/build/tello_controller/install.log --single-version-externally-managed install_data

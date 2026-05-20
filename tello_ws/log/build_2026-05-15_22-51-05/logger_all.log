@@ -1,0 +1,199 @@
+[0.734s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.734s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x76ab60071480>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x76ab601eaaa0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x76ab601eaaa0>>)
+[0.983s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.984s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.984s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.985s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.985s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.985s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.985s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/paolaramos/Proyecto/tello_ws'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.072s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.072s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.072s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.072s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.072s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.072s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.073s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.073s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.073s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.073s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.073s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.073s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.073s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.073s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.073s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.073s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.073s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.073s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.073s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone) by extensions ['ignore', 'ignore_ament_install']
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone) by extension 'ignore'
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone) by extension 'ignore_ament_install'
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone) by extensions ['colcon_pkg']
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone) by extension 'colcon_pkg'
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone) by extensions ['colcon_meta']
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone) by extension 'colcon_meta'
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone) by extensions ['ros']
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone) by extension 'ros'
+[1.085s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drone' with type 'ros.ament_python' and name 'drone'
+[1.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/optitrack_client) by extensions ['ignore', 'ignore_ament_install']
+[1.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/optitrack_client) by extension 'ignore'
+[1.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/optitrack_client) by extension 'ignore_ament_install'
+[1.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/optitrack_client) by extensions ['colcon_pkg']
+[1.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/optitrack_client) by extension 'colcon_pkg'
+[1.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/optitrack_client) by extensions ['colcon_meta']
+[1.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/optitrack_client) by extension 'colcon_meta'
+[1.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/optitrack_client) by extensions ['ros']
+[1.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/optitrack_client) by extension 'ros'
+[1.087s] DEBUG:colcon.colcon_core.package_identification:Package 'src/optitrack_client' with type 'ros.ament_cmake' and name 'optitrack_client'
+[1.087s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.087s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.087s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.087s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.087s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.242s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/paolaramos/Proyecto/tello_ws/install
+[1.243s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[1.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'drone' build argument 'cmake_args' from command line to 'None'
+[1.312s] Level 5:colcon.colcon_core.verb:set package 'drone' build argument 'cmake_target' from command line to 'None'
+[1.312s] Level 5:colcon.colcon_core.verb:set package 'drone' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.312s] Level 5:colcon.colcon_core.verb:set package 'drone' build argument 'cmake_clean_cache' from command line to 'False'
+[1.312s] Level 5:colcon.colcon_core.verb:set package 'drone' build argument 'cmake_clean_first' from command line to 'False'
+[1.312s] Level 5:colcon.colcon_core.verb:set package 'drone' build argument 'cmake_force_configure' from command line to 'False'
+[1.312s] Level 5:colcon.colcon_core.verb:set package 'drone' build argument 'ament_cmake_args' from command line to 'None'
+[1.312s] Level 5:colcon.colcon_core.verb:set package 'drone' build argument 'catkin_cmake_args' from command line to 'None'
+[1.312s] Level 5:colcon.colcon_core.verb:set package 'drone' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.312s] DEBUG:colcon.colcon_core.verb:Building package 'drone' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paolaramos/Proyecto/tello_ws/build/drone', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paolaramos/Proyecto/tello_ws/install/drone', 'merge_install': False, 'path': '/home/paolaramos/Proyecto/tello_ws/src/drone', 'symlink_install': False, 'test_result_base': None}
+[1.313s] Level 5:colcon.colcon_core.verb:set package 'optitrack_client' build argument 'cmake_args' from command line to 'None'
+[1.313s] Level 5:colcon.colcon_core.verb:set package 'optitrack_client' build argument 'cmake_target' from command line to 'None'
+[1.313s] Level 5:colcon.colcon_core.verb:set package 'optitrack_client' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.313s] Level 5:colcon.colcon_core.verb:set package 'optitrack_client' build argument 'cmake_clean_cache' from command line to 'False'
+[1.313s] Level 5:colcon.colcon_core.verb:set package 'optitrack_client' build argument 'cmake_clean_first' from command line to 'False'
+[1.313s] Level 5:colcon.colcon_core.verb:set package 'optitrack_client' build argument 'cmake_force_configure' from command line to 'False'
+[1.313s] Level 5:colcon.colcon_core.verb:set package 'optitrack_client' build argument 'ament_cmake_args' from command line to 'None'
+[1.313s] Level 5:colcon.colcon_core.verb:set package 'optitrack_client' build argument 'catkin_cmake_args' from command line to 'None'
+[1.313s] Level 5:colcon.colcon_core.verb:set package 'optitrack_client' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.313s] DEBUG:colcon.colcon_core.verb:Building package 'optitrack_client' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paolaramos/Proyecto/tello_ws/build/optitrack_client', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paolaramos/Proyecto/tello_ws/install/optitrack_client', 'merge_install': False, 'path': '/home/paolaramos/Proyecto/tello_ws/src/optitrack_client', 'symlink_install': False, 'test_result_base': None}
+[1.313s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.317s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.320s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/paolaramos/Proyecto/tello_ws/src/drone' with build type 'ament_python'
+[1.320s] Level 1:colcon.colcon_core.shell:create_environment_hook('drone', 'ament_prefix_path')
+[1.361s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolaramos/Proyecto/tello_ws/install/drone/share/drone/hook/ament_prefix_path.ps1'
+[1.367s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paolaramos/Proyecto/tello_ws/install/drone/share/drone/hook/ament_prefix_path.dsv'
+[1.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolaramos/Proyecto/tello_ws/install/drone/share/drone/hook/ament_prefix_path.sh'
+[1.372s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.372s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.401s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/paolaramos/Proyecto/tello_ws/src/optitrack_client' with build type 'ament_cmake'
+[1.401s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/paolaramos/Proyecto/tello_ws/src/optitrack_client'
+[1.402s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.402s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paolaramos/Proyecto/tello_ws/build/optitrack_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paolaramos/Proyecto/tello_ws/install/drone:/opt/ros/humble /usr/bin/cmake --build /home/paolaramos/Proyecto/tello_ws/build/optitrack_client -- -j4 -l4
+[1.961s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/paolaramos/Proyecto/tello_ws/src/drone'
+[1.961s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.961s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.515s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paolaramos/Proyecto/tello_ws/build/optitrack_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paolaramos/Proyecto/tello_ws/install/drone:/opt/ros/humble /usr/bin/cmake --build /home/paolaramos/Proyecto/tello_ws/build/optitrack_client -- -j4 -l4
+[2.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paolaramos/Proyecto/tello_ws/build/optitrack_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paolaramos/Proyecto/tello_ws/install/drone:/opt/ros/humble /usr/bin/cmake --install /home/paolaramos/Proyecto/tello_ws/build/optitrack_client
+[2.603s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(optitrack_client)
+[2.604s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paolaramos/Proyecto/tello_ws/build/optitrack_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paolaramos/Proyecto/tello_ws/install/drone:/opt/ros/humble /usr/bin/cmake --install /home/paolaramos/Proyecto/tello_ws/build/optitrack_client
+[2.662s] Level 1:colcon.colcon_core.environment:checking '/home/paolaramos/Proyecto/tello_ws/install/optitrack_client' for CMake module files
+[2.663s] Level 1:colcon.colcon_core.environment:checking '/home/paolaramos/Proyecto/tello_ws/install/optitrack_client' for CMake config files
+[2.664s] Level 1:colcon.colcon_core.shell:create_environment_hook('optitrack_client', 'cmake_prefix_path')
+[2.664s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/hook/cmake_prefix_path.ps1'
+[2.668s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/hook/cmake_prefix_path.dsv'
+[2.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/hook/cmake_prefix_path.sh'
+[2.670s] Level 1:colcon.colcon_core.environment:checking '/home/paolaramos/Proyecto/tello_ws/install/optitrack_client/lib'
+[2.673s] Level 1:colcon.colcon_core.shell:create_environment_hook('optitrack_client', 'ld_library_path_lib')
+[2.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/hook/ld_library_path_lib.ps1'
+[2.675s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/hook/ld_library_path_lib.dsv'
+[2.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/hook/ld_library_path_lib.sh'
+[2.676s] Level 1:colcon.colcon_core.environment:checking '/home/paolaramos/Proyecto/tello_ws/install/optitrack_client/bin'
+[2.677s] Level 1:colcon.colcon_core.environment:checking '/home/paolaramos/Proyecto/tello_ws/install/optitrack_client/lib/pkgconfig/optitrack_client.pc'
+[2.677s] Level 1:colcon.colcon_core.environment:checking '/home/paolaramos/Proyecto/tello_ws/install/optitrack_client/lib/python3.10/site-packages'
+[2.678s] Level 1:colcon.colcon_core.environment:checking '/home/paolaramos/Proyecto/tello_ws/install/optitrack_client/bin'
+[2.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/package.ps1'
+[2.684s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/package.dsv'
+[2.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/package.sh'
+[2.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/package.bash'
+[2.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/package.zsh'
+[2.720s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/colcon-core/packages/optitrack_client)
+[2.725s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(optitrack_client)
+[2.726s] Level 1:colcon.colcon_core.environment:checking '/home/paolaramos/Proyecto/tello_ws/install/optitrack_client' for CMake module files
+[2.727s] Level 1:colcon.colcon_core.environment:checking '/home/paolaramos/Proyecto/tello_ws/install/optitrack_client' for CMake config files
+[2.729s] Level 1:colcon.colcon_core.shell:create_environment_hook('optitrack_client', 'cmake_prefix_path')
+[2.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/hook/cmake_prefix_path.ps1'
+[2.730s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/hook/cmake_prefix_path.dsv'
+[2.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/hook/cmake_prefix_path.sh'
+[2.731s] Level 1:colcon.colcon_core.environment:checking '/home/paolaramos/Proyecto/tello_ws/install/optitrack_client/lib'
+[2.731s] Level 1:colcon.colcon_core.shell:create_environment_hook('optitrack_client', 'ld_library_path_lib')
+[2.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/hook/ld_library_path_lib.ps1'
+[2.733s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/hook/ld_library_path_lib.dsv'
+[2.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/hook/ld_library_path_lib.sh'
+[2.734s] Level 1:colcon.colcon_core.environment:checking '/home/paolaramos/Proyecto/tello_ws/install/optitrack_client/bin'
+[2.735s] Level 1:colcon.colcon_core.environment:checking '/home/paolaramos/Proyecto/tello_ws/install/optitrack_client/lib/pkgconfig/optitrack_client.pc'
+[2.736s] Level 1:colcon.colcon_core.environment:checking '/home/paolaramos/Proyecto/tello_ws/install/optitrack_client/lib/python3.10/site-packages'
+[2.736s] Level 1:colcon.colcon_core.environment:checking '/home/paolaramos/Proyecto/tello_ws/install/optitrack_client/bin'
+[2.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/package.ps1'
+[2.739s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/package.dsv'
+[2.746s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/package.sh'
+[2.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/package.bash'
+[2.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/package.zsh'
+[2.749s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/colcon-core/packages/optitrack_client)
+[4.675s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paolaramos/Proyecto/tello_ws/src/drone': PYTHONPATH=/home/paolaramos/Proyecto/tello_ws/build/drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paolaramos/Proyecto/tello_ws/install/drone/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone build --build-base /home/paolaramos/Proyecto/tello_ws/build/drone/build install --record /home/paolaramos/Proyecto/tello_ws/build/drone/install.log --single-version-externally-managed install_data
+[5.292s] Level 1:colcon.colcon_core.environment:checking '/home/paolaramos/Proyecto/tello_ws/install/drone' for CMake module files
+[5.292s] Level 1:colcon.colcon_core.environment:checking '/home/paolaramos/Proyecto/tello_ws/install/drone' for CMake config files
+[5.293s] Level 1:colcon.colcon_core.environment:checking '/home/paolaramos/Proyecto/tello_ws/install/drone/lib'
+[5.293s] Level 1:colcon.colcon_core.environment:checking '/home/paolaramos/Proyecto/tello_ws/install/drone/bin'
+[5.293s] Level 1:colcon.colcon_core.environment:checking '/home/paolaramos/Proyecto/tello_ws/install/drone/lib/pkgconfig/drone.pc'
+[5.294s] Level 1:colcon.colcon_core.environment:checking '/home/paolaramos/Proyecto/tello_ws/install/drone/lib/python3.10/site-packages'
+[5.294s] Level 1:colcon.colcon_core.shell:create_environment_hook('drone', 'pythonpath')
+[5.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolaramos/Proyecto/tello_ws/install/drone/share/drone/hook/pythonpath.ps1'
+[5.295s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paolaramos/Proyecto/tello_ws/install/drone/share/drone/hook/pythonpath.dsv'
+[5.298s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paolaramos/Proyecto/tello_ws/src/drone' returned '0': PYTHONPATH=/home/paolaramos/Proyecto/tello_ws/build/drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paolaramos/Proyecto/tello_ws/install/drone/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone build --build-base /home/paolaramos/Proyecto/tello_ws/build/drone/build install --record /home/paolaramos/Proyecto/tello_ws/build/drone/install.log --single-version-externally-managed install_data
+[5.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolaramos/Proyecto/tello_ws/install/drone/share/drone/hook/pythonpath.sh'
+[5.300s] Level 1:colcon.colcon_core.environment:checking '/home/paolaramos/Proyecto/tello_ws/install/drone/bin'
+[5.301s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drone)
+[5.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolaramos/Proyecto/tello_ws/install/drone/share/drone/package.ps1'
+[5.302s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paolaramos/Proyecto/tello_ws/install/drone/share/drone/package.dsv'
+[5.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolaramos/Proyecto/tello_ws/install/drone/share/drone/package.sh'
+[5.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolaramos/Proyecto/tello_ws/install/drone/share/drone/package.bash'
+[5.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolaramos/Proyecto/tello_ws/install/drone/share/drone/package.zsh'
+[5.308s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paolaramos/Proyecto/tello_ws/install/drone/share/colcon-core/packages/drone)
+[5.309s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.309s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.309s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.309s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.370s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.370s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.370s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.437s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.438s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/paolaramos/Proyecto/tello_ws/install/local_setup.ps1'
+[5.440s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/paolaramos/Proyecto/tello_ws/install/_local_setup_util_ps1.py'
+[5.443s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/paolaramos/Proyecto/tello_ws/install/setup.ps1'
+[5.445s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/paolaramos/Proyecto/tello_ws/install/local_setup.sh'
+[5.448s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/paolaramos/Proyecto/tello_ws/install/_local_setup_util_sh.py'
+[5.449s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/paolaramos/Proyecto/tello_ws/install/setup.sh'
+[5.456s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/paolaramos/Proyecto/tello_ws/install/local_setup.bash'
+[5.462s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/paolaramos/Proyecto/tello_ws/install/setup.bash'
+[5.469s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/paolaramos/Proyecto/tello_ws/install/local_setup.zsh'
+[5.473s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/paolaramos/Proyecto/tello_ws/install/setup.zsh'

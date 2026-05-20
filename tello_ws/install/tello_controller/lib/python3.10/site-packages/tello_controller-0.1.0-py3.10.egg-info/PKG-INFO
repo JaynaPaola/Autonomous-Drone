@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: tello_controller
+Version: 0.1.0
+Summary: Controlador ROS2 para DJI Tello con integración OptiTrack
+Maintainer: user
+Maintainer-email: user@example.com
+License: MIT
+Requires-Dist: setuptools

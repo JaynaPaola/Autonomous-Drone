@@ -1,0 +1,24 @@
+[0.669s] Invoking command in '/home/paolaramos/Proyecto/tello_ws/build/optitrack_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paolaramos/Proyecto/tello_ws/install/drone:/opt/ros/humble /usr/bin/cmake --build /home/paolaramos/Proyecto/tello_ws/build/optitrack_client -- -j4 -l4
+[1.178s] [100%] Built target optitrack_client
+[1.270s] Invoked command in '/home/paolaramos/Proyecto/tello_ws/build/optitrack_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paolaramos/Proyecto/tello_ws/install/drone:/opt/ros/humble /usr/bin/cmake --build /home/paolaramos/Proyecto/tello_ws/build/optitrack_client -- -j4 -l4
+[1.320s] Invoking command in '/home/paolaramos/Proyecto/tello_ws/build/optitrack_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paolaramos/Proyecto/tello_ws/install/drone:/opt/ros/humble /usr/bin/cmake --install /home/paolaramos/Proyecto/tello_ws/build/optitrack_client
+[1.366s] -- Install configuration: ""
+[1.366s] -- Up-to-date: /home/paolaramos/Proyecto/tello_ws/install/optitrack_client/lib/optitrack_client/optitrack_client
+[1.366s] -- Up-to-date: /home/paolaramos/Proyecto/tello_ws/install/optitrack_client/lib
+[1.366s] -- Up-to-date: /home/paolaramos/Proyecto/tello_ws/install/optitrack_client/lib/libNatNet.so
+[1.366s] -- Up-to-date: /home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/ament_index/resource_index/package_run_dependencies/optitrack_client
+[1.366s] -- Up-to-date: /home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/ament_index/resource_index/parent_prefix_path/optitrack_client
+[1.368s] -- Up-to-date: /home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/environment/ament_prefix_path.sh
+[1.373s] -- Up-to-date: /home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/environment/ament_prefix_path.dsv
+[1.389s] -- Up-to-date: /home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/environment/path.sh
+[1.407s] -- Up-to-date: /home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/environment/path.dsv
+[1.414s] -- Up-to-date: /home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/local_setup.bash
+[1.427s] -- Up-to-date: /home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/local_setup.sh
+[1.427s] -- Up-to-date: /home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/local_setup.zsh
+[1.427s] -- Up-to-date: /home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/local_setup.dsv
+[1.427s] -- Installing: /home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/package.dsv
+[1.427s] -- Up-to-date: /home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/ament_index/resource_index/packages/optitrack_client
+[1.427s] -- Up-to-date: /home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/cmake/optitrack_clientConfig.cmake
+[1.427s] -- Up-to-date: /home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/cmake/optitrack_clientConfig-version.cmake
+[1.427s] -- Up-to-date: /home/paolaramos/Proyecto/tello_ws/install/optitrack_client/share/optitrack_client/package.xml
+[1.428s] Invoked command in '/home/paolaramos/Proyecto/tello_ws/build/optitrack_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paolaramos/Proyecto/tello_ws/install/drone:/opt/ros/humble /usr/bin/cmake --install /home/paolaramos/Proyecto/tello_ws/build/optitrack_client
