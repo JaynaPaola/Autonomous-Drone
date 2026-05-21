@@ -26,6 +26,13 @@ def generate_launch_description():
         output='screen',
     )
 
+    realtime_plot_node = Node(
+        package='drone',
+        executable='realtime_plot',
+        name='realtime_plot_node',
+        output='screen',
+    )
+
     # controller arranca 5 segundos después para dar tiempo al takeoff
     controller_node = TimerAction(
         period=5.0,
@@ -45,4 +52,5 @@ def generate_launch_description():
         odometry_node,
         plotter_node,
         controller_node,
+        realtime_plot_node
     ])

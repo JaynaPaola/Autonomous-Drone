@@ -29,7 +29,8 @@ setup(
         'console_scripts': [
             'odometry = drone.odometry:main',
             'controller = drone.controller:main',
-            'plotter = drone.plotter:main'
+            'plotter = drone.plotter:main',
+            'realtime_plot = drone.realtime_plot:main'
         ],
     },
 )
