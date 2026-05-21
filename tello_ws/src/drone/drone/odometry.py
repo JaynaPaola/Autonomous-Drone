@@ -13,8 +13,8 @@ import time
 # PARÁMETROS
 # -----------------------------
 DT            = 0.1
-RC_LIMIT      = 40
-MAX_SPEED_M_S = 0.40
+RC_LIMIT      = 30
+MAX_SPEED_M_S = 0.30
 ALPHA         = 0.6
 
 FUSION_ALPHA      = 0.85

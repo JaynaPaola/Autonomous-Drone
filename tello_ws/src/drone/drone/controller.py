@@ -7,7 +7,7 @@ import time
 # -----------------------------
 # PARÁMETROS
 # -----------------------------
-RC_LIMIT    = 40
+RC_LIMIT    = 30
 RC_POS_MAX  = 25
 TOL_M       = 0.10
 PAUSE_S     = 10.0

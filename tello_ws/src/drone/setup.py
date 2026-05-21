@@ -30,7 +30,8 @@ setup(
             'odometry = drone.odometry:main',
             'controller = drone.controller:main',
             'plotter = drone.plotter:main',
-            'realtime_plot = drone.realtime_plot:main'
+            'realtime_plot = drone.realtime_plot:main',
+            'latency_check = drone.latency_plot:main'        
         ],
     },
 )
