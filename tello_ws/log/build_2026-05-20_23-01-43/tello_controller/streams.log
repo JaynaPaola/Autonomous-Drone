@@ -1,0 +1,23 @@
+[1.175s] Invoking command in '/home/paolaramos/Autonomous-Drone/tello_ws/src/tello_controller': PYTHONPATH=/home/paolaramos/Autonomous-Drone/tello_ws/build/tello_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paolaramos/Autonomous-Drone/tello_ws/install/tello_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tello_controller build --build-base /home/paolaramos/Autonomous-Drone/tello_ws/build/tello_controller/build install --record /home/paolaramos/Autonomous-Drone/tello_ws/build/tello_controller/install.log --single-version-externally-managed install_data
+[1.443s] /home/paolaramos/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[1.443s]   warnings.warn(msg)
+[1.570s] running egg_info
+[1.583s] writing ../../build/tello_controller/tello_controller.egg-info/PKG-INFO
+[1.586s] writing dependency_links to ../../build/tello_controller/tello_controller.egg-info/dependency_links.txt
+[1.589s] writing entry points to ../../build/tello_controller/tello_controller.egg-info/entry_points.txt
+[1.590s] writing requirements to ../../build/tello_controller/tello_controller.egg-info/requires.txt
+[1.592s] writing top-level names to ../../build/tello_controller/tello_controller.egg-info/top_level.txt
+[1.634s] reading manifest file '../../build/tello_controller/tello_controller.egg-info/SOURCES.txt'
+[1.636s] writing manifest file '../../build/tello_controller/tello_controller.egg-info/SOURCES.txt'
+[1.637s] running build
+[1.642s] running build_py
+[1.642s] running install
+[1.648s] running install_lib
+[1.664s] running install_data
+[1.665s] running install_egg_info
+[1.688s] removing '/home/paolaramos/Autonomous-Drone/tello_ws/install/tello_controller/lib/python3.10/site-packages/tello_controller-2.0.0-py3.10.egg-info' (and everything under it)
+[1.689s] Copying ../../build/tello_controller/tello_controller.egg-info to /home/paolaramos/Autonomous-Drone/tello_ws/install/tello_controller/lib/python3.10/site-packages/tello_controller-2.0.0-py3.10.egg-info
+[1.691s] running install_scripts
+[1.840s] Installing tello_controller_node script to /home/paolaramos/Autonomous-Drone/tello_ws/install/tello_controller/lib/tello_controller
+[1.842s] writing list of installed files to '/home/paolaramos/Autonomous-Drone/tello_ws/build/tello_controller/install.log'
+[1.897s] Invoked command in '/home/paolaramos/Autonomous-Drone/tello_ws/src/tello_controller' returned '0': PYTHONPATH=/home/paolaramos/Autonomous-Drone/tello_ws/build/tello_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paolaramos/Autonomous-Drone/tello_ws/install/tello_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tello_controller build --build-base /home/paolaramos/Autonomous-Drone/tello_ws/build/tello_controller/build install --record /home/paolaramos/Autonomous-Drone/tello_ws/build/tello_controller/install.log --single-version-externally-managed install_data
