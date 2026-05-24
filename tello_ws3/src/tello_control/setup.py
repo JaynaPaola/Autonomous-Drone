@@ -24,7 +24,6 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'odometry_node = tello_control.odometry_node:main',
             'trajectory_node = tello_control.trajectory_node:main',
         ],
     },

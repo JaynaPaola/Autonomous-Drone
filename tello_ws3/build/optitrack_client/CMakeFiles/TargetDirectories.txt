@@ -1,0 +1,10 @@
+/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/build/optitrack_client/CMakeFiles/uninstall.dir
+/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/build/optitrack_client/CMakeFiles/optitrack_client_uninstall.dir
+/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/build/optitrack_client/CMakeFiles/optitrack_client.dir
+/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/build/optitrack_client/CMakeFiles/test.dir
+/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/build/optitrack_client/CMakeFiles/edit_cache.dir
+/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/build/optitrack_client/CMakeFiles/rebuild_cache.dir
+/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/build/optitrack_client/CMakeFiles/list_install_components.dir
+/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/build/optitrack_client/CMakeFiles/install.dir
+/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/build/optitrack_client/CMakeFiles/install/local.dir
+/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/build/optitrack_client/CMakeFiles/install/strip.dir

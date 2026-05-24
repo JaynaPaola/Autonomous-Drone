@@ -10,8 +10,4 @@ setup.py
 ../../build/tello_control/tello_control.egg-info/zip-safe
 resource/tello_control
 tello_control/__init__.py
-tello_control/odometry_node.py
 tello_control/trajectory_node.py
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

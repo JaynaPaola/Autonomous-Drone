@@ -1,0 +1,64 @@
+[0.056s] Invoking command in '/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/build/optitrack_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/src/optitrack_client -DCMAKE_INSTALL_PREFIX=/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/optitrack_client
+[2.486s] -- The C compiler identification is GNU 11.4.0
+[3.616s] -- The CXX compiler identification is GNU 11.4.0
+[3.734s] -- Detecting C compiler ABI info
+[4.534s] -- Detecting C compiler ABI info - done
+[4.535s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.554s] -- Detecting C compile features
+[4.571s] -- Detecting C compile features - done
+[4.604s] -- Detecting CXX compiler ABI info
+[5.555s] -- Detecting CXX compiler ABI info - done
+[5.623s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.627s] -- Detecting CXX compile features
+[5.634s] -- Detecting CXX compile features - done
+[5.869s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[8.266s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[9.897s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[10.613s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[10.663s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[10.788s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[10.953s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.097s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.512s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[11.537s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[12.214s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[12.316s] -- Found FastRTPS: /opt/ros/humble/include  
+[12.455s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.561s] -- Looking for pthread.h
+[13.102s] -- Looking for pthread.h - found
+[13.102s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[13.602s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[13.607s] -- Found Threads: TRUE  
+[14.238s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[14.835s] -- Configuring done
+[14.877s] -- Generating done
+[14.891s] -- Build files have been written to: /home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/build/optitrack_client
+[14.918s] Invoked command in '/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/build/optitrack_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/src/optitrack_client -DCMAKE_INSTALL_PREFIX=/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/optitrack_client
+[14.935s] Invoking command in '/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/build/optitrack_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/build/optitrack_client -- -j4 -l4
+[15.198s] [ 33%] [32mBuilding CXX object CMakeFiles/optitrack_client.dir/src/utils.cpp.o[0m
+[15.214s] [ 66%] [32mBuilding CXX object CMakeFiles/optitrack_client.dir/src/optitrack_client.cpp.o[0m
+[39.888s] [100%] [32m[1mLinking CXX executable optitrack_client[0m
+[41.007s] [100%] Built target optitrack_client
+[41.042s] Invoked command in '/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/build/optitrack_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/build/optitrack_client -- -j4 -l4
+[41.074s] Invoking command in '/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/build/optitrack_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/build/optitrack_client
+[41.091s] -- Install configuration: ""
+[41.091s] -- Installing: /home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/optitrack_client/lib/optitrack_client/optitrack_client
+[41.095s] -- Set runtime path of "/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/optitrack_client/lib/optitrack_client/optitrack_client" to ""
+[41.095s] -- Up-to-date: /home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/optitrack_client/lib
+[41.095s] -- Installing: /home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/optitrack_client/lib/libNatNet.so
+[41.101s] -- Installing: /home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/optitrack_client/share/ament_index/resource_index/package_run_dependencies/optitrack_client
+[41.101s] -- Installing: /home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/optitrack_client/share/ament_index/resource_index/parent_prefix_path/optitrack_client
+[41.101s] -- Installing: /home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/optitrack_client/share/optitrack_client/environment/ament_prefix_path.sh
+[41.101s] -- Installing: /home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/optitrack_client/share/optitrack_client/environment/ament_prefix_path.dsv
+[41.101s] -- Installing: /home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/optitrack_client/share/optitrack_client/environment/path.sh
+[41.101s] -- Installing: /home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/optitrack_client/share/optitrack_client/environment/path.dsv
+[41.101s] -- Installing: /home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/optitrack_client/share/optitrack_client/local_setup.bash
+[41.102s] -- Installing: /home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/optitrack_client/share/optitrack_client/local_setup.sh
+[41.102s] -- Installing: /home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/optitrack_client/share/optitrack_client/local_setup.zsh
+[41.102s] -- Installing: /home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/optitrack_client/share/optitrack_client/local_setup.dsv
+[41.102s] -- Installing: /home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/optitrack_client/share/optitrack_client/package.dsv
+[41.102s] -- Installing: /home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/optitrack_client/share/ament_index/resource_index/packages/optitrack_client
+[41.103s] -- Installing: /home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/optitrack_client/share/optitrack_client/cmake/optitrack_clientConfig.cmake
+[41.103s] -- Installing: /home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/optitrack_client/share/optitrack_client/cmake/optitrack_clientConfig-version.cmake
+[41.103s] -- Installing: /home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/optitrack_client/share/optitrack_client/package.xml
+[41.107s] Invoked command in '/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/build/optitrack_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/build/optitrack_client

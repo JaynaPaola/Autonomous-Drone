@@ -1,4 +1,0 @@
-import sys
-if sys.prefix == '/usr':
-    sys.real_prefix = sys.prefix
-    sys.prefix = sys.exec_prefix = '/home/paolaramos/Autonomous-Drone/tello_ws3/install/tello_pkg'

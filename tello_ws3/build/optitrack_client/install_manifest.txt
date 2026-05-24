@@ -1,0 +1,17 @@
+/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/optitrack_client/lib/optitrack_client/optitrack_client
+/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/optitrack_client/lib/libNatNet.so
+/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/optitrack_client/share/ament_index/resource_index/package_run_dependencies/optitrack_client
+/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/optitrack_client/share/ament_index/resource_index/parent_prefix_path/optitrack_client
+/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/optitrack_client/share/optitrack_client/environment/ament_prefix_path.sh
+/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/optitrack_client/share/optitrack_client/environment/ament_prefix_path.dsv
+/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/optitrack_client/share/optitrack_client/environment/path.sh
+/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/optitrack_client/share/optitrack_client/environment/path.dsv
+/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/optitrack_client/share/optitrack_client/local_setup.bash
+/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/optitrack_client/share/optitrack_client/local_setup.sh
+/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/optitrack_client/share/optitrack_client/local_setup.zsh
+/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/optitrack_client/share/optitrack_client/local_setup.dsv
+/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/optitrack_client/share/optitrack_client/package.dsv
+/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/optitrack_client/share/ament_index/resource_index/packages/optitrack_client
+/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/optitrack_client/share/optitrack_client/cmake/optitrack_clientConfig.cmake
+/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/optitrack_client/share/optitrack_client/cmake/optitrack_clientConfig-version.cmake
+/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/optitrack_client/share/optitrack_client/package.xml
