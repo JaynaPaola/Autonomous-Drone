@@ -1,0 +1,27 @@
+[0.780s] Invoking command in '/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/src/tello_control': PYTHONPATH=/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/build/tello_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/tello_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tello_control build --build-base /home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/build/tello_control/build install --record /home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/build/tello_control/install.log --single-version-externally-managed install_data
+[1.077s] running egg_info
+[1.097s] writing ../../build/tello_control/tello_control.egg-info/PKG-INFO
+[1.104s] writing dependency_links to ../../build/tello_control/tello_control.egg-info/dependency_links.txt
+[1.104s] writing entry points to ../../build/tello_control/tello_control.egg-info/entry_points.txt
+[1.104s] writing requirements to ../../build/tello_control/tello_control.egg-info/requires.txt
+[1.107s] writing top-level names to ../../build/tello_control/tello_control.egg-info/top_level.txt
+[1.140s] reading manifest file '../../build/tello_control/tello_control.egg-info/SOURCES.txt'
+[1.147s] writing manifest file '../../build/tello_control/tello_control.egg-info/SOURCES.txt'
+[1.148s] running build
+[1.148s] running build_py
+[1.148s] copying tello_control/__init__.py -> /home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/build/tello_control/build/lib/tello_control
+[1.148s] copying tello_control/trajectory_node.py -> /home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/build/tello_control/build/lib/tello_control
+[1.148s] running install
+[1.154s] running install_lib
+[1.172s] running install_data
+[1.174s] copying resource/tello_control -> /home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/tello_control/share/ament_index/resource_index/packages
+[1.174s] copying package.xml -> /home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/tello_control/share/tello_control
+[1.175s] creating /home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/tello_control/share/tello_control/launch
+[1.175s] copying launch/tello_with_optitrack.launch.py -> /home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/tello_control/share/tello_control/launch
+[1.176s] running install_egg_info
+[1.200s] removing '/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/tello_control/lib/python3.10/site-packages/tello_control-0.0.0-py3.10.egg-info' (and everything under it)
+[1.201s] Copying ../../build/tello_control/tello_control.egg-info to /home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/tello_control/lib/python3.10/site-packages/tello_control-0.0.0-py3.10.egg-info
+[1.201s] running install_scripts
+[1.338s] Installing trajectory_node script to /home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/tello_control/lib/tello_control
+[1.339s] writing list of installed files to '/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/build/tello_control/install.log'
+[1.382s] Invoked command in '/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/src/tello_control' returned '0': PYTHONPATH=/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/build/tello_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/install/tello_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tello_control build --build-base /home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/build/tello_control/build install --record /home/paolaramos/Github/testROS/Autonomous-Drone/tello_ws3/build/tello_control/install.log --single-version-externally-managed install_data

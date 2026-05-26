@@ -89,6 +89,11 @@ class OptiTrackListener(Node):
         self.get_logger().info('Esperando señal de OptiTrack...')
 
     def _cb(self, msg: PoseStamped):
+
+        # SOLO aceptar rigid body TELLO
+        if msg.header.frame_id != "TELLO":
+            return
+
         with self._lock:
             self.q = np.array([
                 msg.pose.position.x,

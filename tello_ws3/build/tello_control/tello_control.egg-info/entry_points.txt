@@ -1,2 +1,3 @@
 [console_scripts]
+justTello = tello_control.justTello:main
 trajectory_node = tello_control.trajectory_node:main
