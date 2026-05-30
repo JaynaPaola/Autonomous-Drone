@@ -68,8 +68,8 @@ def run_tello():
     time.sleep(2)
 
     # Posición inicial estimada y Objetivo
-    q = np.array([0.0, 0.0, 110.0])
-    q_d = np.array([0.0, 0.0, 150.0])
+    q = np.array([0.0, 0.0, 0.0])
+    q_d = np.array([50.0, 50.0, 0.0])
 
     # K un poco más alto para asegurar que venza la inercia al final
     K = np.diag([1.2, 1.2, 1.2])
